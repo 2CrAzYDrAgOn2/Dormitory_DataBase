@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dormitory_DataBase", "test_DataBase\Dormitory_DataBase.csproj", "{FE542504-5AC7-4F7B-BAA3-7C1BCDA39F8F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE542504-5AC7-4F7B-BAA3-7C1BCDA39F8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE542504-5AC7-4F7B-BAA3-7C1BCDA39F8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE542504-5AC7-4F7B-BAA3-7C1BCDA39F8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE542504-5AC7-4F7B-BAA3-7C1BCDA39F8F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {099BD48E-FE13-4C72-923F-B7EA4E246F2D}
+	EndGlobalSection
+EndGlobal
