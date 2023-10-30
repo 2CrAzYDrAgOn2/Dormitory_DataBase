@@ -13,6 +13,7 @@ namespace test_DataBase
             InitializeComponent();
             StartPosition = FormStartPosition.CenterScreen;
         }
+
         /// <summary>
         /// ButtonSave_Click вызывается при нажатии на кнопку "Сохранить"
         /// </summary>
@@ -36,11 +37,14 @@ namespace test_DataBase
                 {
                     MessageBox.Show("Цена должна иметь числовой формат!", "Ошибка!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
-                dataBase.CloseConnection();
             }
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
+            }
+            finally
+            {
+                dataBase.CloseConnection();
             }
         }
     }

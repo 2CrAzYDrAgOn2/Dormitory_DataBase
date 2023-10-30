@@ -87,26 +87,5 @@ namespace test_DataBase
             pictureBoxShow.Visible = false;
             pictureBoxUnshow.Visible = true;
         }
-
-        //private Boolean checkUser()
-        //{
-        //    var loginUser = textBoxLogin.Text;
-        //    var passwordUser = textBoxPassword.Text;
-        //    SqlDataAdapter sqlDataAdapter = new SqlDataAdapter();
-        //    DataTable dataTable = new DataTable();
-        //    string querystring = $"select Номер_Пользователя, Логин_Пользователя, Пароль_Пользвателя from Регистрация where Логин_Пользователя = '{loginUser}' and Пароль_Пользователя = '{passwordUser}'";
-        //    SqlCommand sqlCommand = new SqlCommand(querystring, dataBase.GetConnection());
-        //    sqlDataAdapter.SelectCommand = sqlCommand;
-        //    sqlDataAdapter.Fill(dataTable);
-        //    if (dataTable.Rows.Count > 0)
-        //    {
-        //        MessageBox.Show("Пользователь уже существует!");
-        //        return true;
-        //    }
-        //    else
-        //    {
-        //        return false;
-        //    }
-        //}
     }
 }

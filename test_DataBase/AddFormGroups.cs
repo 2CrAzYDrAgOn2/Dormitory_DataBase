@@ -29,11 +29,14 @@ namespace test_DataBase
                 var sqlCommand = new SqlCommand(addQuery, dataBase.GetConnection());
                 sqlCommand.ExecuteNonQuery();
                 MessageBox.Show("Запись успешно создана!", "Успех!", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                dataBase.CloseConnection();
             }
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
+            }
+            finally
+            {
+                dataBase.CloseConnection();
             }
         }
     }
