@@ -28,10 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle21 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle22 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle23 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.файлToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.информацияToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle25 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle26 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle27 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle28 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle29 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle24 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle30 = new System.Windows.Forms.DataGridViewCellStyle();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.panelControl = new System.Windows.Forms.Panel();
             this.buttonSaveDormitories = new System.Windows.Forms.Button();
@@ -47,7 +54,6 @@
             this.labelRecord = new System.Windows.Forms.Label();
             this.dataGridViewDormitories = new System.Windows.Forms.DataGridView();
             this.panelTitle = new System.Windows.Forms.Panel();
-            this.buttonSearchDormitories = new System.Windows.Forms.Button();
             this.buttonClearDormitories = new System.Windows.Forms.Button();
             this.buttonRefreshDormitories = new System.Windows.Forms.Button();
             this.textBoxSearchDormitories = new System.Windows.Forms.TextBox();
@@ -68,7 +74,6 @@
             this.label24 = new System.Windows.Forms.Label();
             this.dataGridViewFaculties = new System.Windows.Forms.DataGridView();
             this.panel15 = new System.Windows.Forms.Panel();
-            this.buttonSearchFaculties = new System.Windows.Forms.Button();
             this.buttonClearFaculties = new System.Windows.Forms.Button();
             this.buttonRefreshFaculties = new System.Windows.Forms.Button();
             this.textBoxSearchFaculties = new System.Windows.Forms.TextBox();
@@ -88,7 +93,6 @@
             this.label4 = new System.Windows.Forms.Label();
             this.dataGridViewGroups = new System.Windows.Forms.DataGridView();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.buttonSearchGroups = new System.Windows.Forms.Button();
             this.buttonClearGroups = new System.Windows.Forms.Button();
             this.buttonRefreshGroups = new System.Windows.Forms.Button();
             this.textBoxSearchGroups = new System.Windows.Forms.TextBox();
@@ -112,7 +116,6 @@
             this.label9 = new System.Windows.Forms.Label();
             this.dataGridViewHousingOrders = new System.Windows.Forms.DataGridView();
             this.panel6 = new System.Windows.Forms.Panel();
-            this.buttonSearchHousingOrders = new System.Windows.Forms.Button();
             this.buttonClearHousingOrders = new System.Windows.Forms.Button();
             this.buttonRefreshHousingOrders = new System.Windows.Forms.Button();
             this.textBoxSearchHousingOrders = new System.Windows.Forms.TextBox();
@@ -136,7 +139,6 @@
             this.label14 = new System.Windows.Forms.Label();
             this.dataGridViewHousingPayments = new System.Windows.Forms.DataGridView();
             this.panel9 = new System.Windows.Forms.Panel();
-            this.buttonSearchHousingPayments = new System.Windows.Forms.Button();
             this.buttonClearHousingPayments = new System.Windows.Forms.Button();
             this.buttonRefreshHousingPayments = new System.Windows.Forms.Button();
             this.textBoxSearchHousingPayments = new System.Windows.Forms.TextBox();
@@ -158,7 +160,6 @@
             this.label19 = new System.Windows.Forms.Label();
             this.dataGridViewRoomAssignment = new System.Windows.Forms.DataGridView();
             this.panel12 = new System.Windows.Forms.Panel();
-            this.buttonSearchRoomAssignment = new System.Windows.Forms.Button();
             this.buttonClearRoomAssignment = new System.Windows.Forms.Button();
             this.buttonRefreshRoomAssignment = new System.Windows.Forms.Button();
             this.textBoxSearchRoomAssignment = new System.Windows.Forms.TextBox();
@@ -188,7 +189,6 @@
             this.label29 = new System.Windows.Forms.Label();
             this.dataGridViewRooms = new System.Windows.Forms.DataGridView();
             this.panel18 = new System.Windows.Forms.Panel();
-            this.buttonSearchRooms = new System.Windows.Forms.Button();
             this.buttonClearRooms = new System.Windows.Forms.Button();
             this.buttonRefreshRooms = new System.Windows.Forms.Button();
             this.textBoxSearchRooms = new System.Windows.Forms.TextBox();
@@ -214,12 +214,10 @@
             this.label34 = new System.Windows.Forms.Label();
             this.dataGridViewStudents = new System.Windows.Forms.DataGridView();
             this.panel21 = new System.Windows.Forms.Panel();
-            this.buttonSearchStudents = new System.Windows.Forms.Button();
             this.buttonClearStudents = new System.Windows.Forms.Button();
             this.buttonRefreshStudents = new System.Windows.Forms.Button();
             this.textBoxSearchStudents = new System.Windows.Forms.TextBox();
             this.label35 = new System.Windows.Forms.Label();
-            this.menuStrip1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.panelControl.SuspendLayout();
             this.panelRecord.SuspendLayout();
@@ -262,29 +260,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewStudents)).BeginInit();
             this.panel21.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // menuStrip1
-            // 
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.файлToolStripMenuItem,
-            this.информацияToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(776, 24);
-            this.menuStrip1.TabIndex = 2;
-            this.menuStrip1.Text = "menuStrip1";
-            // 
-            // файлToolStripMenuItem
-            // 
-            this.файлToolStripMenuItem.Name = "файлToolStripMenuItem";
-            this.файлToolStripMenuItem.Size = new System.Drawing.Size(48, 20);
-            this.файлToolStripMenuItem.Text = "Файл";
-            // 
-            // информацияToolStripMenuItem
-            // 
-            this.информацияToolStripMenuItem.Name = "информацияToolStripMenuItem";
-            this.информацияToolStripMenuItem.Size = new System.Drawing.Size(93, 20);
-            this.информацияToolStripMenuItem.Text = "Информация";
             // 
             // tabPage1
             // 
@@ -431,16 +406,33 @@
             this.dataGridViewDormitories.AllowUserToAddRows = false;
             this.dataGridViewDormitories.AllowUserToDeleteRows = false;
             this.dataGridViewDormitories.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewCellStyle21.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle21.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle21.Font = new System.Drawing.Font("Arial Narrow", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle21.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle21.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle21.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle21.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridViewDormitories.DefaultCellStyle = dataGridViewCellStyle21;
             this.dataGridViewDormitories.Location = new System.Drawing.Point(8, 79);
             this.dataGridViewDormitories.Name = "dataGridViewDormitories";
             this.dataGridViewDormitories.ReadOnly = true;
+            dataGridViewCellStyle22.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle22.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle22.Font = new System.Drawing.Font("Arial Narrow", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle22.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle22.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle22.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle22.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridViewDormitories.RowHeadersDefaultCellStyle = dataGridViewCellStyle22;
+            dataGridViewCellStyle23.Font = new System.Drawing.Font("Arial Narrow", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.dataGridViewDormitories.RowsDefaultCellStyle = dataGridViewCellStyle23;
             this.dataGridViewDormitories.Size = new System.Drawing.Size(743, 305);
             this.dataGridViewDormitories.TabIndex = 1;
             this.dataGridViewDormitories.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DataGridViewDormitories_CellClick);
             // 
             // panelTitle
             // 
-            this.panelTitle.Controls.Add(this.buttonSearchDormitories);
             this.panelTitle.Controls.Add(this.buttonClearDormitories);
             this.panelTitle.Controls.Add(this.buttonRefreshDormitories);
             this.panelTitle.Controls.Add(this.textBoxSearchDormitories);
@@ -450,21 +442,11 @@
             this.panelTitle.Size = new System.Drawing.Size(751, 73);
             this.panelTitle.TabIndex = 0;
             // 
-            // buttonSearchDormitories
-            // 
-            this.buttonSearchDormitories.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonSearchDormitories.Image = global::test_DataBase.Properties.Resources.free_icon_magnifier_2319177__1_;
-            this.buttonSearchDormitories.Location = new System.Drawing.Point(526, 3);
-            this.buttonSearchDormitories.Name = "buttonSearchDormitories";
-            this.buttonSearchDormitories.Size = new System.Drawing.Size(67, 67);
-            this.buttonSearchDormitories.TabIndex = 4;
-            this.buttonSearchDormitories.UseVisualStyleBackColor = true;
-            // 
             // buttonClearDormitories
             // 
             this.buttonClearDormitories.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonClearDormitories.Image = global::test_DataBase.Properties.Resources.free_icon_eraser_67795061;
-            this.buttonClearDormitories.Location = new System.Drawing.Point(380, 3);
+            this.buttonClearDormitories.Image = ((System.Drawing.Image)(resources.GetObject("buttonClearDormitories.Image")));
+            this.buttonClearDormitories.Location = new System.Drawing.Point(453, 3);
             this.buttonClearDormitories.Name = "buttonClearDormitories";
             this.buttonClearDormitories.Size = new System.Drawing.Size(67, 67);
             this.buttonClearDormitories.TabIndex = 3;
@@ -474,8 +456,8 @@
             // buttonRefreshDormitories
             // 
             this.buttonRefreshDormitories.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonRefreshDormitories.Image = global::test_DataBase.Properties.Resources.free_icon_updating_2990003;
-            this.buttonRefreshDormitories.Location = new System.Drawing.Point(453, 3);
+            this.buttonRefreshDormitories.Image = ((System.Drawing.Image)(resources.GetObject("buttonRefreshDormitories.Image")));
+            this.buttonRefreshDormitories.Location = new System.Drawing.Point(526, 3);
             this.buttonRefreshDormitories.Name = "buttonRefreshDormitories";
             this.buttonRefreshDormitories.Size = new System.Drawing.Size(67, 67);
             this.buttonRefreshDormitories.TabIndex = 2;
@@ -513,7 +495,7 @@
             this.tabControl1.Controls.Add(this.tabPage7);
             this.tabControl1.Controls.Add(this.tabPage8);
             this.tabControl1.Font = new System.Drawing.Font("Viner Hand ITC", 8.25F);
-            this.tabControl1.Location = new System.Drawing.Point(0, 27);
+            this.tabControl1.Location = new System.Drawing.Point(0, 2);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(769, 753);
@@ -665,6 +647,14 @@
             this.dataGridViewFaculties.AllowUserToAddRows = false;
             this.dataGridViewFaculties.AllowUserToDeleteRows = false;
             this.dataGridViewFaculties.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewCellStyle25.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle25.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle25.Font = new System.Drawing.Font("Arial Narrow", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle25.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle25.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle25.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle25.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridViewFaculties.DefaultCellStyle = dataGridViewCellStyle25;
             this.dataGridViewFaculties.Location = new System.Drawing.Point(8, 79);
             this.dataGridViewFaculties.Name = "dataGridViewFaculties";
             this.dataGridViewFaculties.ReadOnly = true;
@@ -674,7 +664,6 @@
             // 
             // panel15
             // 
-            this.panel15.Controls.Add(this.buttonSearchFaculties);
             this.panel15.Controls.Add(this.buttonClearFaculties);
             this.panel15.Controls.Add(this.buttonRefreshFaculties);
             this.panel15.Controls.Add(this.textBoxSearchFaculties);
@@ -684,21 +673,11 @@
             this.panel15.Size = new System.Drawing.Size(751, 73);
             this.panel15.TabIndex = 0;
             // 
-            // buttonSearchFaculties
-            // 
-            this.buttonSearchFaculties.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonSearchFaculties.Image = global::test_DataBase.Properties.Resources.free_icon_magnifier_2319177__1_;
-            this.buttonSearchFaculties.Location = new System.Drawing.Point(526, 3);
-            this.buttonSearchFaculties.Name = "buttonSearchFaculties";
-            this.buttonSearchFaculties.Size = new System.Drawing.Size(67, 67);
-            this.buttonSearchFaculties.TabIndex = 4;
-            this.buttonSearchFaculties.UseVisualStyleBackColor = true;
-            // 
             // buttonClearFaculties
             // 
             this.buttonClearFaculties.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonClearFaculties.Image = global::test_DataBase.Properties.Resources.free_icon_eraser_67795061;
-            this.buttonClearFaculties.Location = new System.Drawing.Point(380, 3);
+            this.buttonClearFaculties.Image = ((System.Drawing.Image)(resources.GetObject("buttonClearFaculties.Image")));
+            this.buttonClearFaculties.Location = new System.Drawing.Point(453, 3);
             this.buttonClearFaculties.Name = "buttonClearFaculties";
             this.buttonClearFaculties.Size = new System.Drawing.Size(67, 67);
             this.buttonClearFaculties.TabIndex = 3;
@@ -708,8 +687,8 @@
             // buttonRefreshFaculties
             // 
             this.buttonRefreshFaculties.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonRefreshFaculties.Image = global::test_DataBase.Properties.Resources.free_icon_updating_2990003;
-            this.buttonRefreshFaculties.Location = new System.Drawing.Point(453, 3);
+            this.buttonRefreshFaculties.Image = ((System.Drawing.Image)(resources.GetObject("buttonRefreshFaculties.Image")));
+            this.buttonRefreshFaculties.Location = new System.Drawing.Point(526, 3);
             this.buttonRefreshFaculties.Name = "buttonRefreshFaculties";
             this.buttonRefreshFaculties.Size = new System.Drawing.Size(67, 67);
             this.buttonRefreshFaculties.TabIndex = 2;
@@ -875,6 +854,14 @@
             this.dataGridViewGroups.AllowUserToAddRows = false;
             this.dataGridViewGroups.AllowUserToDeleteRows = false;
             this.dataGridViewGroups.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewCellStyle26.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle26.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle26.Font = new System.Drawing.Font("Arial Narrow", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle26.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle26.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle26.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle26.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridViewGroups.DefaultCellStyle = dataGridViewCellStyle26;
             this.dataGridViewGroups.Location = new System.Drawing.Point(8, 79);
             this.dataGridViewGroups.Name = "dataGridViewGroups";
             this.dataGridViewGroups.ReadOnly = true;
@@ -884,7 +871,6 @@
             // 
             // panel3
             // 
-            this.panel3.Controls.Add(this.buttonSearchGroups);
             this.panel3.Controls.Add(this.buttonClearGroups);
             this.panel3.Controls.Add(this.buttonRefreshGroups);
             this.panel3.Controls.Add(this.textBoxSearchGroups);
@@ -894,21 +880,11 @@
             this.panel3.Size = new System.Drawing.Size(751, 73);
             this.panel3.TabIndex = 0;
             // 
-            // buttonSearchGroups
-            // 
-            this.buttonSearchGroups.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonSearchGroups.Image = global::test_DataBase.Properties.Resources.free_icon_magnifier_2319177__1_;
-            this.buttonSearchGroups.Location = new System.Drawing.Point(526, 3);
-            this.buttonSearchGroups.Name = "buttonSearchGroups";
-            this.buttonSearchGroups.Size = new System.Drawing.Size(67, 67);
-            this.buttonSearchGroups.TabIndex = 4;
-            this.buttonSearchGroups.UseVisualStyleBackColor = true;
-            // 
             // buttonClearGroups
             // 
             this.buttonClearGroups.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonClearGroups.Image = global::test_DataBase.Properties.Resources.free_icon_eraser_67795061;
-            this.buttonClearGroups.Location = new System.Drawing.Point(380, 3);
+            this.buttonClearGroups.Image = ((System.Drawing.Image)(resources.GetObject("buttonClearGroups.Image")));
+            this.buttonClearGroups.Location = new System.Drawing.Point(453, 3);
             this.buttonClearGroups.Name = "buttonClearGroups";
             this.buttonClearGroups.Size = new System.Drawing.Size(67, 67);
             this.buttonClearGroups.TabIndex = 3;
@@ -918,8 +894,8 @@
             // buttonRefreshGroups
             // 
             this.buttonRefreshGroups.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonRefreshGroups.Image = global::test_DataBase.Properties.Resources.free_icon_updating_2990003;
-            this.buttonRefreshGroups.Location = new System.Drawing.Point(453, 3);
+            this.buttonRefreshGroups.Image = ((System.Drawing.Image)(resources.GetObject("buttonRefreshGroups.Image")));
+            this.buttonRefreshGroups.Location = new System.Drawing.Point(526, 3);
             this.buttonRefreshGroups.Name = "buttonRefreshGroups";
             this.buttonRefreshGroups.Size = new System.Drawing.Size(67, 67);
             this.buttonRefreshGroups.TabIndex = 2;
@@ -1125,6 +1101,14 @@
             this.dataGridViewHousingOrders.AllowUserToAddRows = false;
             this.dataGridViewHousingOrders.AllowUserToDeleteRows = false;
             this.dataGridViewHousingOrders.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewCellStyle27.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle27.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle27.Font = new System.Drawing.Font("Arial Narrow", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle27.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle27.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle27.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle27.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridViewHousingOrders.DefaultCellStyle = dataGridViewCellStyle27;
             this.dataGridViewHousingOrders.Location = new System.Drawing.Point(8, 79);
             this.dataGridViewHousingOrders.Name = "dataGridViewHousingOrders";
             this.dataGridViewHousingOrders.ReadOnly = true;
@@ -1134,7 +1118,6 @@
             // 
             // panel6
             // 
-            this.panel6.Controls.Add(this.buttonSearchHousingOrders);
             this.panel6.Controls.Add(this.buttonClearHousingOrders);
             this.panel6.Controls.Add(this.buttonRefreshHousingOrders);
             this.panel6.Controls.Add(this.textBoxSearchHousingOrders);
@@ -1144,21 +1127,11 @@
             this.panel6.Size = new System.Drawing.Size(751, 73);
             this.panel6.TabIndex = 0;
             // 
-            // buttonSearchHousingOrders
-            // 
-            this.buttonSearchHousingOrders.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonSearchHousingOrders.Image = global::test_DataBase.Properties.Resources.free_icon_magnifier_2319177__1_;
-            this.buttonSearchHousingOrders.Location = new System.Drawing.Point(526, 3);
-            this.buttonSearchHousingOrders.Name = "buttonSearchHousingOrders";
-            this.buttonSearchHousingOrders.Size = new System.Drawing.Size(67, 67);
-            this.buttonSearchHousingOrders.TabIndex = 4;
-            this.buttonSearchHousingOrders.UseVisualStyleBackColor = true;
-            // 
             // buttonClearHousingOrders
             // 
             this.buttonClearHousingOrders.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonClearHousingOrders.Image = global::test_DataBase.Properties.Resources.free_icon_eraser_67795061;
-            this.buttonClearHousingOrders.Location = new System.Drawing.Point(380, 3);
+            this.buttonClearHousingOrders.Image = ((System.Drawing.Image)(resources.GetObject("buttonClearHousingOrders.Image")));
+            this.buttonClearHousingOrders.Location = new System.Drawing.Point(453, 3);
             this.buttonClearHousingOrders.Name = "buttonClearHousingOrders";
             this.buttonClearHousingOrders.Size = new System.Drawing.Size(67, 67);
             this.buttonClearHousingOrders.TabIndex = 3;
@@ -1167,8 +1140,8 @@
             // buttonRefreshHousingOrders
             // 
             this.buttonRefreshHousingOrders.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonRefreshHousingOrders.Image = global::test_DataBase.Properties.Resources.free_icon_updating_2990003;
-            this.buttonRefreshHousingOrders.Location = new System.Drawing.Point(453, 3);
+            this.buttonRefreshHousingOrders.Image = ((System.Drawing.Image)(resources.GetObject("buttonRefreshHousingOrders.Image")));
+            this.buttonRefreshHousingOrders.Location = new System.Drawing.Point(526, 3);
             this.buttonRefreshHousingOrders.Name = "buttonRefreshHousingOrders";
             this.buttonRefreshHousingOrders.Size = new System.Drawing.Size(67, 67);
             this.buttonRefreshHousingOrders.TabIndex = 2;
@@ -1374,6 +1347,14 @@
             this.dataGridViewHousingPayments.AllowUserToAddRows = false;
             this.dataGridViewHousingPayments.AllowUserToDeleteRows = false;
             this.dataGridViewHousingPayments.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewCellStyle28.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle28.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle28.Font = new System.Drawing.Font("Arial Narrow", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle28.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle28.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle28.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle28.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridViewHousingPayments.DefaultCellStyle = dataGridViewCellStyle28;
             this.dataGridViewHousingPayments.Location = new System.Drawing.Point(8, 79);
             this.dataGridViewHousingPayments.Name = "dataGridViewHousingPayments";
             this.dataGridViewHousingPayments.ReadOnly = true;
@@ -1383,7 +1364,6 @@
             // 
             // panel9
             // 
-            this.panel9.Controls.Add(this.buttonSearchHousingPayments);
             this.panel9.Controls.Add(this.buttonClearHousingPayments);
             this.panel9.Controls.Add(this.buttonRefreshHousingPayments);
             this.panel9.Controls.Add(this.textBoxSearchHousingPayments);
@@ -1393,21 +1373,11 @@
             this.panel9.Size = new System.Drawing.Size(751, 73);
             this.panel9.TabIndex = 0;
             // 
-            // buttonSearchHousingPayments
-            // 
-            this.buttonSearchHousingPayments.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonSearchHousingPayments.Image = global::test_DataBase.Properties.Resources.free_icon_magnifier_2319177__1_;
-            this.buttonSearchHousingPayments.Location = new System.Drawing.Point(526, 3);
-            this.buttonSearchHousingPayments.Name = "buttonSearchHousingPayments";
-            this.buttonSearchHousingPayments.Size = new System.Drawing.Size(67, 67);
-            this.buttonSearchHousingPayments.TabIndex = 4;
-            this.buttonSearchHousingPayments.UseVisualStyleBackColor = true;
-            // 
             // buttonClearHousingPayments
             // 
             this.buttonClearHousingPayments.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonClearHousingPayments.Image = global::test_DataBase.Properties.Resources.free_icon_eraser_67795061;
-            this.buttonClearHousingPayments.Location = new System.Drawing.Point(380, 3);
+            this.buttonClearHousingPayments.Image = ((System.Drawing.Image)(resources.GetObject("buttonClearHousingPayments.Image")));
+            this.buttonClearHousingPayments.Location = new System.Drawing.Point(453, 3);
             this.buttonClearHousingPayments.Name = "buttonClearHousingPayments";
             this.buttonClearHousingPayments.Size = new System.Drawing.Size(67, 67);
             this.buttonClearHousingPayments.TabIndex = 3;
@@ -1417,8 +1387,8 @@
             // buttonRefreshHousingPayments
             // 
             this.buttonRefreshHousingPayments.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonRefreshHousingPayments.Image = global::test_DataBase.Properties.Resources.free_icon_updating_2990003;
-            this.buttonRefreshHousingPayments.Location = new System.Drawing.Point(453, 3);
+            this.buttonRefreshHousingPayments.Image = ((System.Drawing.Image)(resources.GetObject("buttonRefreshHousingPayments.Image")));
+            this.buttonRefreshHousingPayments.Location = new System.Drawing.Point(526, 3);
             this.buttonRefreshHousingPayments.Name = "buttonRefreshHousingPayments";
             this.buttonRefreshHousingPayments.Size = new System.Drawing.Size(67, 67);
             this.buttonRefreshHousingPayments.TabIndex = 2;
@@ -1604,6 +1574,14 @@
             this.dataGridViewRoomAssignment.AllowUserToAddRows = false;
             this.dataGridViewRoomAssignment.AllowUserToDeleteRows = false;
             this.dataGridViewRoomAssignment.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewCellStyle29.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle29.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle29.Font = new System.Drawing.Font("Arial Narrow", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle29.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle29.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle29.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle29.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridViewRoomAssignment.DefaultCellStyle = dataGridViewCellStyle29;
             this.dataGridViewRoomAssignment.Location = new System.Drawing.Point(8, 79);
             this.dataGridViewRoomAssignment.Name = "dataGridViewRoomAssignment";
             this.dataGridViewRoomAssignment.ReadOnly = true;
@@ -1613,7 +1591,6 @@
             // 
             // panel12
             // 
-            this.panel12.Controls.Add(this.buttonSearchRoomAssignment);
             this.panel12.Controls.Add(this.buttonClearRoomAssignment);
             this.panel12.Controls.Add(this.buttonRefreshRoomAssignment);
             this.panel12.Controls.Add(this.textBoxSearchRoomAssignment);
@@ -1623,21 +1600,11 @@
             this.panel12.Size = new System.Drawing.Size(751, 73);
             this.panel12.TabIndex = 0;
             // 
-            // buttonSearchRoomAssignment
-            // 
-            this.buttonSearchRoomAssignment.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonSearchRoomAssignment.Image = global::test_DataBase.Properties.Resources.free_icon_magnifier_2319177__1_;
-            this.buttonSearchRoomAssignment.Location = new System.Drawing.Point(526, 3);
-            this.buttonSearchRoomAssignment.Name = "buttonSearchRoomAssignment";
-            this.buttonSearchRoomAssignment.Size = new System.Drawing.Size(67, 67);
-            this.buttonSearchRoomAssignment.TabIndex = 4;
-            this.buttonSearchRoomAssignment.UseVisualStyleBackColor = true;
-            // 
             // buttonClearRoomAssignment
             // 
             this.buttonClearRoomAssignment.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonClearRoomAssignment.Image = global::test_DataBase.Properties.Resources.free_icon_eraser_67795061;
-            this.buttonClearRoomAssignment.Location = new System.Drawing.Point(380, 3);
+            this.buttonClearRoomAssignment.Image = ((System.Drawing.Image)(resources.GetObject("buttonClearRoomAssignment.Image")));
+            this.buttonClearRoomAssignment.Location = new System.Drawing.Point(453, 3);
             this.buttonClearRoomAssignment.Name = "buttonClearRoomAssignment";
             this.buttonClearRoomAssignment.Size = new System.Drawing.Size(67, 67);
             this.buttonClearRoomAssignment.TabIndex = 3;
@@ -1647,8 +1614,8 @@
             // buttonRefreshRoomAssignment
             // 
             this.buttonRefreshRoomAssignment.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonRefreshRoomAssignment.Image = global::test_DataBase.Properties.Resources.free_icon_updating_2990003;
-            this.buttonRefreshRoomAssignment.Location = new System.Drawing.Point(453, 3);
+            this.buttonRefreshRoomAssignment.Image = ((System.Drawing.Image)(resources.GetObject("buttonRefreshRoomAssignment.Image")));
+            this.buttonRefreshRoomAssignment.Location = new System.Drawing.Point(526, 3);
             this.buttonRefreshRoomAssignment.Name = "buttonRefreshRoomAssignment";
             this.buttonRefreshRoomAssignment.Size = new System.Drawing.Size(67, 67);
             this.buttonRefreshRoomAssignment.TabIndex = 2;
@@ -1914,6 +1881,14 @@
             this.dataGridViewRooms.AllowUserToAddRows = false;
             this.dataGridViewRooms.AllowUserToDeleteRows = false;
             this.dataGridViewRooms.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewCellStyle24.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle24.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle24.Font = new System.Drawing.Font("Arial Narrow", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle24.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle24.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle24.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle24.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridViewRooms.DefaultCellStyle = dataGridViewCellStyle24;
             this.dataGridViewRooms.Location = new System.Drawing.Point(8, 79);
             this.dataGridViewRooms.Name = "dataGridViewRooms";
             this.dataGridViewRooms.ReadOnly = true;
@@ -1923,7 +1898,6 @@
             // 
             // panel18
             // 
-            this.panel18.Controls.Add(this.buttonSearchRooms);
             this.panel18.Controls.Add(this.buttonClearRooms);
             this.panel18.Controls.Add(this.buttonRefreshRooms);
             this.panel18.Controls.Add(this.textBoxSearchRooms);
@@ -1933,21 +1907,11 @@
             this.panel18.Size = new System.Drawing.Size(751, 73);
             this.panel18.TabIndex = 0;
             // 
-            // buttonSearchRooms
-            // 
-            this.buttonSearchRooms.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonSearchRooms.Image = global::test_DataBase.Properties.Resources.free_icon_magnifier_2319177__1_;
-            this.buttonSearchRooms.Location = new System.Drawing.Point(526, 3);
-            this.buttonSearchRooms.Name = "buttonSearchRooms";
-            this.buttonSearchRooms.Size = new System.Drawing.Size(67, 67);
-            this.buttonSearchRooms.TabIndex = 4;
-            this.buttonSearchRooms.UseVisualStyleBackColor = true;
-            // 
             // buttonClearRooms
             // 
             this.buttonClearRooms.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonClearRooms.Image = global::test_DataBase.Properties.Resources.free_icon_eraser_67795061;
-            this.buttonClearRooms.Location = new System.Drawing.Point(380, 3);
+            this.buttonClearRooms.Image = ((System.Drawing.Image)(resources.GetObject("buttonClearRooms.Image")));
+            this.buttonClearRooms.Location = new System.Drawing.Point(453, 3);
             this.buttonClearRooms.Name = "buttonClearRooms";
             this.buttonClearRooms.Size = new System.Drawing.Size(67, 67);
             this.buttonClearRooms.TabIndex = 3;
@@ -1957,8 +1921,8 @@
             // buttonRefreshRooms
             // 
             this.buttonRefreshRooms.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonRefreshRooms.Image = global::test_DataBase.Properties.Resources.free_icon_updating_2990003;
-            this.buttonRefreshRooms.Location = new System.Drawing.Point(453, 3);
+            this.buttonRefreshRooms.Image = ((System.Drawing.Image)(resources.GetObject("buttonRefreshRooms.Image")));
+            this.buttonRefreshRooms.Location = new System.Drawing.Point(526, 3);
             this.buttonRefreshRooms.Name = "buttonRefreshRooms";
             this.buttonRefreshRooms.Size = new System.Drawing.Size(67, 67);
             this.buttonRefreshRooms.TabIndex = 2;
@@ -2184,6 +2148,14 @@
             this.dataGridViewStudents.AllowUserToAddRows = false;
             this.dataGridViewStudents.AllowUserToDeleteRows = false;
             this.dataGridViewStudents.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewCellStyle30.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle30.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle30.Font = new System.Drawing.Font("Arial Narrow", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle30.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle30.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle30.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle30.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridViewStudents.DefaultCellStyle = dataGridViewCellStyle30;
             this.dataGridViewStudents.Location = new System.Drawing.Point(8, 79);
             this.dataGridViewStudents.Name = "dataGridViewStudents";
             this.dataGridViewStudents.ReadOnly = true;
@@ -2193,7 +2165,6 @@
             // 
             // panel21
             // 
-            this.panel21.Controls.Add(this.buttonSearchStudents);
             this.panel21.Controls.Add(this.buttonClearStudents);
             this.panel21.Controls.Add(this.buttonRefreshStudents);
             this.panel21.Controls.Add(this.textBoxSearchStudents);
@@ -2203,21 +2174,11 @@
             this.panel21.Size = new System.Drawing.Size(751, 73);
             this.panel21.TabIndex = 0;
             // 
-            // buttonSearchStudents
-            // 
-            this.buttonSearchStudents.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonSearchStudents.Image = ((System.Drawing.Image)(resources.GetObject("buttonSearchStudents.Image")));
-            this.buttonSearchStudents.Location = new System.Drawing.Point(526, 3);
-            this.buttonSearchStudents.Name = "buttonSearchStudents";
-            this.buttonSearchStudents.Size = new System.Drawing.Size(67, 67);
-            this.buttonSearchStudents.TabIndex = 4;
-            this.buttonSearchStudents.UseVisualStyleBackColor = true;
-            // 
             // buttonClearStudents
             // 
             this.buttonClearStudents.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonClearStudents.Image = ((System.Drawing.Image)(resources.GetObject("buttonClearStudents.Image")));
-            this.buttonClearStudents.Location = new System.Drawing.Point(380, 3);
+            this.buttonClearStudents.Location = new System.Drawing.Point(453, 3);
             this.buttonClearStudents.Name = "buttonClearStudents";
             this.buttonClearStudents.Size = new System.Drawing.Size(67, 67);
             this.buttonClearStudents.TabIndex = 3;
@@ -2228,7 +2189,7 @@
             // 
             this.buttonRefreshStudents.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonRefreshStudents.Image = ((System.Drawing.Image)(resources.GetObject("buttonRefreshStudents.Image")));
-            this.buttonRefreshStudents.Location = new System.Drawing.Point(453, 3);
+            this.buttonRefreshStudents.Location = new System.Drawing.Point(526, 3);
             this.buttonRefreshStudents.Name = "buttonRefreshStudents";
             this.buttonRefreshStudents.Size = new System.Drawing.Size(67, 67);
             this.buttonRefreshStudents.TabIndex = 2;
@@ -2259,15 +2220,11 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(776, 781);
+            this.ClientSize = new System.Drawing.Size(762, 754);
             this.Controls.Add(this.tabControl1);
-            this.Controls.Add(this.menuStrip1);
-            this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.Text = "Общежитие";
             this.Load += new System.EventHandler(this.Form1_Load);
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
             this.panelControl.ResumeLayout(false);
@@ -2334,15 +2291,10 @@
             this.panel21.ResumeLayout(false);
             this.panel21.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem файлToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem информацияToolStripMenuItem;
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.Panel panelControl;
         private System.Windows.Forms.Button buttonSaveDormitories;
@@ -2358,7 +2310,6 @@
         private System.Windows.Forms.Label labelRecord;
         private System.Windows.Forms.DataGridView dataGridViewDormitories;
         private System.Windows.Forms.Panel panelTitle;
-        private System.Windows.Forms.Button buttonSearchDormitories;
         private System.Windows.Forms.Button buttonClearDormitories;
         private System.Windows.Forms.Button buttonRefreshDormitories;
         private System.Windows.Forms.TextBox textBoxSearchDormitories;
@@ -2379,7 +2330,6 @@
         private System.Windows.Forms.Label label24;
         private System.Windows.Forms.DataGridView dataGridViewFaculties;
         private System.Windows.Forms.Panel panel15;
-        private System.Windows.Forms.Button buttonSearchFaculties;
         private System.Windows.Forms.Button buttonClearFaculties;
         private System.Windows.Forms.Button buttonRefreshFaculties;
         private System.Windows.Forms.TextBox textBoxSearchFaculties;
@@ -2399,7 +2349,6 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.DataGridView dataGridViewGroups;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Button buttonSearchGroups;
         private System.Windows.Forms.Button buttonClearGroups;
         private System.Windows.Forms.Button buttonRefreshGroups;
         private System.Windows.Forms.TextBox textBoxSearchGroups;
@@ -2421,7 +2370,6 @@
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.DataGridView dataGridViewHousingOrders;
         private System.Windows.Forms.Panel panel6;
-        private System.Windows.Forms.Button buttonSearchHousingOrders;
         private System.Windows.Forms.Button buttonClearHousingOrders;
         private System.Windows.Forms.Button buttonRefreshHousingOrders;
         private System.Windows.Forms.TextBox textBoxSearchHousingOrders;
@@ -2443,7 +2391,6 @@
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.DataGridView dataGridViewHousingPayments;
         private System.Windows.Forms.Panel panel9;
-        private System.Windows.Forms.Button buttonSearchHousingPayments;
         private System.Windows.Forms.Button buttonClearHousingPayments;
         private System.Windows.Forms.Button buttonRefreshHousingPayments;
         private System.Windows.Forms.TextBox textBoxSearchHousingPayments;
@@ -2464,7 +2411,6 @@
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.DataGridView dataGridViewRoomAssignment;
         private System.Windows.Forms.Panel panel12;
-        private System.Windows.Forms.Button buttonSearchRoomAssignment;
         private System.Windows.Forms.Button buttonClearRoomAssignment;
         private System.Windows.Forms.Button buttonRefreshRoomAssignment;
         private System.Windows.Forms.TextBox textBoxSearchRoomAssignment;
@@ -2489,7 +2435,6 @@
         private System.Windows.Forms.Label label29;
         private System.Windows.Forms.DataGridView dataGridViewRooms;
         private System.Windows.Forms.Panel panel18;
-        private System.Windows.Forms.Button buttonSearchRooms;
         private System.Windows.Forms.Button buttonClearRooms;
         private System.Windows.Forms.Button buttonRefreshRooms;
         private System.Windows.Forms.TextBox textBoxSearchRooms;
@@ -2512,7 +2457,6 @@
         private System.Windows.Forms.Label label34;
         private System.Windows.Forms.DataGridView dataGridViewStudents;
         private System.Windows.Forms.Panel panel21;
-        private System.Windows.Forms.Button buttonSearchStudents;
         private System.Windows.Forms.Button buttonClearStudents;
         private System.Windows.Forms.Button buttonRefreshStudents;
         private System.Windows.Forms.TextBox textBoxSearchStudents;
