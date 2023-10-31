@@ -1,5 +1,5 @@
-CREATE DATABASE Dormitory
-USE Dormitory
+CREATE DATABASE DormitoryGus
+USE DormitoryGus
 
 CREATE TABLE Faculties (
     FacultyID INT PRIMARY KEY IDENTITY(1,1),

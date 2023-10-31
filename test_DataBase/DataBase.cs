@@ -4,7 +4,7 @@ namespace test_DataBase
 {
     internal class DataBase
     {
-        private readonly SqlConnection sqlConnection = new SqlConnection(@"Data Source=DESKTOP-2DIOKB9\SQLExpress;Initial Catalog=Dormitory;Integrated Security=True");
+        private readonly SqlConnection sqlConnection = new SqlConnection(@"Data Source=MS-SQL\SQLEXPRESS;Initial Catalog=DormitoryGus;Integrated Security=True");
 
         /// <summary>
         /// OpenConnection вызывается при открытии соединения с базой данных
