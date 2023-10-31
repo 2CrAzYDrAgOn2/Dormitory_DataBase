@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.файлToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.информацияToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -46,6 +47,9 @@
             this.labelRecord = new System.Windows.Forms.Label();
             this.dataGridViewDormitories = new System.Windows.Forms.DataGridView();
             this.panelTitle = new System.Windows.Forms.Panel();
+            this.buttonSearchDormitories = new System.Windows.Forms.Button();
+            this.buttonClearDormitories = new System.Windows.Forms.Button();
+            this.buttonRefreshDormitories = new System.Windows.Forms.Button();
             this.textBoxSearchDormitories = new System.Windows.Forms.TextBox();
             this.labelTitle = new System.Windows.Forms.Label();
             this.tabControl1 = new System.Windows.Forms.TabControl();
@@ -64,6 +68,9 @@
             this.label24 = new System.Windows.Forms.Label();
             this.dataGridViewFaculties = new System.Windows.Forms.DataGridView();
             this.panel15 = new System.Windows.Forms.Panel();
+            this.buttonSearchFaculties = new System.Windows.Forms.Button();
+            this.buttonClearFaculties = new System.Windows.Forms.Button();
+            this.buttonRefreshFaculties = new System.Windows.Forms.Button();
             this.textBoxSearchFaculties = new System.Windows.Forms.TextBox();
             this.label25 = new System.Windows.Forms.Label();
             this.tabPage3 = new System.Windows.Forms.TabPage();
@@ -81,6 +88,9 @@
             this.label4 = new System.Windows.Forms.Label();
             this.dataGridViewGroups = new System.Windows.Forms.DataGridView();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.buttonSearchGroups = new System.Windows.Forms.Button();
+            this.buttonClearGroups = new System.Windows.Forms.Button();
+            this.buttonRefreshGroups = new System.Windows.Forms.Button();
             this.textBoxSearchGroups = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.tabPage4 = new System.Windows.Forms.TabPage();
@@ -102,6 +112,9 @@
             this.label9 = new System.Windows.Forms.Label();
             this.dataGridViewHousingOrders = new System.Windows.Forms.DataGridView();
             this.panel6 = new System.Windows.Forms.Panel();
+            this.buttonSearchHousingOrders = new System.Windows.Forms.Button();
+            this.buttonClearHousingOrders = new System.Windows.Forms.Button();
+            this.buttonRefreshHousingOrders = new System.Windows.Forms.Button();
             this.textBoxSearchHousingOrders = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
             this.tabPage5 = new System.Windows.Forms.TabPage();
@@ -123,6 +136,9 @@
             this.label14 = new System.Windows.Forms.Label();
             this.dataGridViewHousingPayments = new System.Windows.Forms.DataGridView();
             this.panel9 = new System.Windows.Forms.Panel();
+            this.buttonSearchHousingPayments = new System.Windows.Forms.Button();
+            this.buttonClearHousingPayments = new System.Windows.Forms.Button();
+            this.buttonRefreshHousingPayments = new System.Windows.Forms.Button();
             this.textBoxSearchHousingPayments = new System.Windows.Forms.TextBox();
             this.label15 = new System.Windows.Forms.Label();
             this.tabPage6 = new System.Windows.Forms.TabPage();
@@ -142,6 +158,9 @@
             this.label19 = new System.Windows.Forms.Label();
             this.dataGridViewRoomAssignment = new System.Windows.Forms.DataGridView();
             this.panel12 = new System.Windows.Forms.Panel();
+            this.buttonSearchRoomAssignment = new System.Windows.Forms.Button();
+            this.buttonClearRoomAssignment = new System.Windows.Forms.Button();
+            this.buttonRefreshRoomAssignment = new System.Windows.Forms.Button();
             this.textBoxSearchRoomAssignment = new System.Windows.Forms.TextBox();
             this.label20 = new System.Windows.Forms.Label();
             this.tabPage7 = new System.Windows.Forms.TabPage();
@@ -169,6 +188,9 @@
             this.label29 = new System.Windows.Forms.Label();
             this.dataGridViewRooms = new System.Windows.Forms.DataGridView();
             this.panel18 = new System.Windows.Forms.Panel();
+            this.buttonSearchRooms = new System.Windows.Forms.Button();
+            this.buttonClearRooms = new System.Windows.Forms.Button();
+            this.buttonRefreshRooms = new System.Windows.Forms.Button();
             this.textBoxSearchRooms = new System.Windows.Forms.TextBox();
             this.label30 = new System.Windows.Forms.Label();
             this.tabPage8 = new System.Windows.Forms.TabPage();
@@ -192,32 +214,11 @@
             this.label34 = new System.Windows.Forms.Label();
             this.dataGridViewStudents = new System.Windows.Forms.DataGridView();
             this.panel21 = new System.Windows.Forms.Panel();
-            this.textBoxSearchStudents = new System.Windows.Forms.TextBox();
-            this.label35 = new System.Windows.Forms.Label();
-            this.buttonSearchDormitories = new System.Windows.Forms.Button();
-            this.buttonClearDormitories = new System.Windows.Forms.Button();
-            this.buttonRefreshDormitories = new System.Windows.Forms.Button();
-            this.buttonSearchFaculties = new System.Windows.Forms.Button();
-            this.buttonClearFaculties = new System.Windows.Forms.Button();
-            this.buttonRefreshFaculties = new System.Windows.Forms.Button();
-            this.buttonSearchGroups = new System.Windows.Forms.Button();
-            this.buttonClearGroups = new System.Windows.Forms.Button();
-            this.buttonRefreshGroups = new System.Windows.Forms.Button();
-            this.buttonSearchHousingOrders = new System.Windows.Forms.Button();
-            this.buttonClearHousingOrders = new System.Windows.Forms.Button();
-            this.buttonRefreshHousingOrders = new System.Windows.Forms.Button();
-            this.buttonSearchHousingPayments = new System.Windows.Forms.Button();
-            this.buttonClearHousingPayments = new System.Windows.Forms.Button();
-            this.buttonRefreshHousingPayments = new System.Windows.Forms.Button();
-            this.buttonSearchRoomAssignment = new System.Windows.Forms.Button();
-            this.buttonClearRoomAssignment = new System.Windows.Forms.Button();
-            this.buttonRefreshRoomAssignment = new System.Windows.Forms.Button();
-            this.buttonSearchRooms = new System.Windows.Forms.Button();
-            this.buttonClearRooms = new System.Windows.Forms.Button();
-            this.buttonRefreshRooms = new System.Windows.Forms.Button();
             this.buttonSearchStudents = new System.Windows.Forms.Button();
             this.buttonClearStudents = new System.Windows.Forms.Button();
             this.buttonRefreshStudents = new System.Windows.Forms.Button();
+            this.textBoxSearchStudents = new System.Windows.Forms.TextBox();
+            this.label35 = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.panelControl.SuspendLayout();
@@ -269,7 +270,7 @@
             this.информацияToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(768, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(776, 24);
             this.menuStrip1.TabIndex = 2;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -292,10 +293,10 @@
             this.tabPage1.Controls.Add(this.panelRecord);
             this.tabPage1.Controls.Add(this.dataGridViewDormitories);
             this.tabPage1.Controls.Add(this.panelTitle);
-            this.tabPage1.Location = new System.Drawing.Point(4, 22);
+            this.tabPage1.Location = new System.Drawing.Point(4, 27);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(761, 727);
+            this.tabPage1.Size = new System.Drawing.Size(761, 722);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Общежития";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -313,6 +314,7 @@
             // 
             // buttonSaveDormitories
             // 
+            this.buttonSaveDormitories.Font = new System.Drawing.Font("Viner Hand ITC", 8.25F);
             this.buttonSaveDormitories.Location = new System.Drawing.Point(3, 225);
             this.buttonSaveDormitories.Name = "buttonSaveDormitories";
             this.buttonSaveDormitories.Size = new System.Drawing.Size(202, 68);
@@ -323,6 +325,7 @@
             // 
             // buttonChangeDormitories
             // 
+            this.buttonChangeDormitories.Font = new System.Drawing.Font("Viner Hand ITC", 8.25F);
             this.buttonChangeDormitories.Location = new System.Drawing.Point(3, 151);
             this.buttonChangeDormitories.Name = "buttonChangeDormitories";
             this.buttonChangeDormitories.Size = new System.Drawing.Size(202, 68);
@@ -333,6 +336,7 @@
             // 
             // buttonDeleteDormitories
             // 
+            this.buttonDeleteDormitories.Font = new System.Drawing.Font("Viner Hand ITC", 8.25F);
             this.buttonDeleteDormitories.Location = new System.Drawing.Point(3, 77);
             this.buttonDeleteDormitories.Name = "buttonDeleteDormitories";
             this.buttonDeleteDormitories.Size = new System.Drawing.Size(202, 68);
@@ -343,6 +347,7 @@
             // 
             // buttonNewDormitories
             // 
+            this.buttonNewDormitories.Font = new System.Drawing.Font("Viner Hand ITC", 8.25F);
             this.buttonNewDormitories.Location = new System.Drawing.Point(3, 3);
             this.buttonNewDormitories.Name = "buttonNewDormitories";
             this.buttonNewDormitories.Size = new System.Drawing.Size(202, 68);
@@ -354,10 +359,10 @@
             // labelControl
             // 
             this.labelControl.AutoSize = true;
-            this.labelControl.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelControl.Font = new System.Drawing.Font("Magneto", 13F, System.Drawing.FontStyle.Bold);
             this.labelControl.Location = new System.Drawing.Point(538, 390);
             this.labelControl.Name = "labelControl";
-            this.labelControl.Size = new System.Drawing.Size(213, 25);
+            this.labelControl.Size = new System.Drawing.Size(225, 22);
             this.labelControl.TabIndex = 3;
             this.labelControl.Text = "Управление записями:";
             // 
@@ -376,23 +381,26 @@
             // labelProdukciya
             // 
             this.labelProdukciya.AutoSize = true;
-            this.labelProdukciya.Location = new System.Drawing.Point(1, 110);
+            this.labelProdukciya.Font = new System.Drawing.Font("Viner Hand ITC", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelProdukciya.Location = new System.Drawing.Point(8, 110);
             this.labelProdukciya.Name = "labelProdukciya";
-            this.labelProdukciya.Size = new System.Drawing.Size(123, 13);
+            this.labelProdukciya.Size = new System.Drawing.Size(122, 18);
             this.labelProdukciya.TabIndex = 7;
-            this.labelProdukciya.Text = "Название Общежития:";
+            this.labelProdukciya.Text = "Название общежития:";
             // 
             // labelNumber
             // 
             this.labelNumber.AutoSize = true;
+            this.labelNumber.Font = new System.Drawing.Font("Viner Hand ITC", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelNumber.Location = new System.Drawing.Point(80, 71);
             this.labelNumber.Name = "labelNumber";
-            this.labelNumber.Size = new System.Drawing.Size(44, 13);
+            this.labelNumber.Size = new System.Drawing.Size(45, 18);
             this.labelNumber.TabIndex = 6;
             this.labelNumber.Text = "Номер:";
             // 
             // textBoxDormitoryName
             // 
+            this.textBoxDormitoryName.BackColor = System.Drawing.SystemColors.ControlLight;
             this.textBoxDormitoryName.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxDormitoryName.Location = new System.Drawing.Point(130, 98);
             this.textBoxDormitoryName.Name = "textBoxDormitoryName";
@@ -401,6 +409,7 @@
             // 
             // textBoxDormitoryID
             // 
+            this.textBoxDormitoryID.BackColor = System.Drawing.SystemColors.ControlLight;
             this.textBoxDormitoryID.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxDormitoryID.Location = new System.Drawing.Point(130, 59);
             this.textBoxDormitoryID.Name = "textBoxDormitoryID";
@@ -410,10 +419,10 @@
             // labelRecord
             // 
             this.labelRecord.AutoSize = true;
-            this.labelRecord.Font = new System.Drawing.Font("Segoe UI Semibold", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelRecord.Font = new System.Drawing.Font("Magneto", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelRecord.Location = new System.Drawing.Point(3, 9);
             this.labelRecord.Name = "labelRecord";
-            this.labelRecord.Size = new System.Drawing.Size(142, 47);
+            this.labelRecord.Size = new System.Drawing.Size(162, 44);
             this.labelRecord.TabIndex = 0;
             this.labelRecord.Text = "Запись:";
             // 
@@ -441,8 +450,41 @@
             this.panelTitle.Size = new System.Drawing.Size(751, 73);
             this.panelTitle.TabIndex = 0;
             // 
+            // buttonSearchDormitories
+            // 
+            this.buttonSearchDormitories.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonSearchDormitories.Image = global::test_DataBase.Properties.Resources.free_icon_magnifier_2319177__1_;
+            this.buttonSearchDormitories.Location = new System.Drawing.Point(526, 3);
+            this.buttonSearchDormitories.Name = "buttonSearchDormitories";
+            this.buttonSearchDormitories.Size = new System.Drawing.Size(67, 67);
+            this.buttonSearchDormitories.TabIndex = 4;
+            this.buttonSearchDormitories.UseVisualStyleBackColor = true;
+            // 
+            // buttonClearDormitories
+            // 
+            this.buttonClearDormitories.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonClearDormitories.Image = global::test_DataBase.Properties.Resources.free_icon_eraser_67795061;
+            this.buttonClearDormitories.Location = new System.Drawing.Point(380, 3);
+            this.buttonClearDormitories.Name = "buttonClearDormitories";
+            this.buttonClearDormitories.Size = new System.Drawing.Size(67, 67);
+            this.buttonClearDormitories.TabIndex = 3;
+            this.buttonClearDormitories.UseVisualStyleBackColor = true;
+            this.buttonClearDormitories.Click += new System.EventHandler(this.ButtonClear_Click);
+            // 
+            // buttonRefreshDormitories
+            // 
+            this.buttonRefreshDormitories.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonRefreshDormitories.Image = global::test_DataBase.Properties.Resources.free_icon_updating_2990003;
+            this.buttonRefreshDormitories.Location = new System.Drawing.Point(453, 3);
+            this.buttonRefreshDormitories.Name = "buttonRefreshDormitories";
+            this.buttonRefreshDormitories.Size = new System.Drawing.Size(67, 67);
+            this.buttonRefreshDormitories.TabIndex = 2;
+            this.buttonRefreshDormitories.UseVisualStyleBackColor = true;
+            this.buttonRefreshDormitories.Click += new System.EventHandler(this.ButtonRefresh_Click);
+            // 
             // textBoxSearchDormitories
             // 
+            this.textBoxSearchDormitories.BackColor = System.Drawing.SystemColors.ControlLight;
             this.textBoxSearchDormitories.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxSearchDormitories.Location = new System.Drawing.Point(599, 32);
             this.textBoxSearchDormitories.Name = "textBoxSearchDormitories";
@@ -453,10 +495,10 @@
             // labelTitle
             // 
             this.labelTitle.AutoSize = true;
-            this.labelTitle.Font = new System.Drawing.Font("Segoe UI", 36F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelTitle.Font = new System.Drawing.Font("Magneto", 36F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelTitle.Location = new System.Drawing.Point(3, 3);
             this.labelTitle.Name = "labelTitle";
-            this.labelTitle.Size = new System.Drawing.Size(293, 65);
+            this.labelTitle.Size = new System.Drawing.Size(301, 58);
             this.labelTitle.TabIndex = 0;
             this.labelTitle.Text = "Общежития";
             // 
@@ -470,6 +512,7 @@
             this.tabControl1.Controls.Add(this.tabPage6);
             this.tabControl1.Controls.Add(this.tabPage7);
             this.tabControl1.Controls.Add(this.tabPage8);
+            this.tabControl1.Font = new System.Drawing.Font("Viner Hand ITC", 8.25F);
             this.tabControl1.Location = new System.Drawing.Point(0, 27);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
@@ -484,10 +527,10 @@
             this.tabPage2.Controls.Add(this.panel14);
             this.tabPage2.Controls.Add(this.dataGridViewFaculties);
             this.tabPage2.Controls.Add(this.panel15);
-            this.tabPage2.Location = new System.Drawing.Point(4, 22);
+            this.tabPage2.Location = new System.Drawing.Point(4, 27);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(761, 727);
+            this.tabPage2.Size = new System.Drawing.Size(761, 722);
             this.tabPage2.TabIndex = 6;
             this.tabPage2.Text = "Факультеты";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -505,6 +548,7 @@
             // 
             // buttonSaveFaculties
             // 
+            this.buttonSaveFaculties.Font = new System.Drawing.Font("Viner Hand ITC", 8.25F);
             this.buttonSaveFaculties.Location = new System.Drawing.Point(3, 225);
             this.buttonSaveFaculties.Name = "buttonSaveFaculties";
             this.buttonSaveFaculties.Size = new System.Drawing.Size(202, 68);
@@ -515,6 +559,7 @@
             // 
             // buttonChangeFaculties
             // 
+            this.buttonChangeFaculties.Font = new System.Drawing.Font("Viner Hand ITC", 8.25F);
             this.buttonChangeFaculties.Location = new System.Drawing.Point(3, 151);
             this.buttonChangeFaculties.Name = "buttonChangeFaculties";
             this.buttonChangeFaculties.Size = new System.Drawing.Size(202, 68);
@@ -525,6 +570,7 @@
             // 
             // buttonDeleteFaculties
             // 
+            this.buttonDeleteFaculties.Font = new System.Drawing.Font("Viner Hand ITC", 8.25F);
             this.buttonDeleteFaculties.Location = new System.Drawing.Point(3, 77);
             this.buttonDeleteFaculties.Name = "buttonDeleteFaculties";
             this.buttonDeleteFaculties.Size = new System.Drawing.Size(202, 68);
@@ -535,6 +581,7 @@
             // 
             // buttonNewFaculties
             // 
+            this.buttonNewFaculties.Font = new System.Drawing.Font("Viner Hand ITC", 8.25F);
             this.buttonNewFaculties.Location = new System.Drawing.Point(3, 3);
             this.buttonNewFaculties.Name = "buttonNewFaculties";
             this.buttonNewFaculties.Size = new System.Drawing.Size(202, 68);
@@ -546,10 +593,10 @@
             // label21
             // 
             this.label21.AutoSize = true;
-            this.label21.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label21.Font = new System.Drawing.Font("Magneto", 13F, System.Drawing.FontStyle.Bold);
             this.label21.Location = new System.Drawing.Point(538, 390);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(213, 25);
+            this.label21.Size = new System.Drawing.Size(225, 22);
             this.label21.TabIndex = 3;
             this.label21.Text = "Управление записями:";
             // 
@@ -568,23 +615,26 @@
             // label22
             // 
             this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(-1, 110);
+            this.label22.Font = new System.Drawing.Font("Viner Hand ITC", 8.25F);
+            this.label22.Location = new System.Drawing.Point(3, 110);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(122, 13);
+            this.label22.Size = new System.Drawing.Size(123, 18);
             this.label22.TabIndex = 7;
             this.label22.Text = "Название факультета:";
             // 
             // label23
             // 
             this.label23.AutoSize = true;
+            this.label23.Font = new System.Drawing.Font("Viner Hand ITC", 8.25F);
             this.label23.Location = new System.Drawing.Point(80, 71);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(44, 13);
+            this.label23.Size = new System.Drawing.Size(45, 18);
             this.label23.TabIndex = 6;
             this.label23.Text = "Номер:";
             // 
             // textBoxFacultyName
             // 
+            this.textBoxFacultyName.BackColor = System.Drawing.SystemColors.ControlLight;
             this.textBoxFacultyName.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxFacultyName.Location = new System.Drawing.Point(130, 98);
             this.textBoxFacultyName.Name = "textBoxFacultyName";
@@ -593,6 +643,7 @@
             // 
             // textBoxFacultyID
             // 
+            this.textBoxFacultyID.BackColor = System.Drawing.SystemColors.ControlLight;
             this.textBoxFacultyID.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxFacultyID.Location = new System.Drawing.Point(130, 59);
             this.textBoxFacultyID.Name = "textBoxFacultyID";
@@ -602,10 +653,10 @@
             // label24
             // 
             this.label24.AutoSize = true;
-            this.label24.Font = new System.Drawing.Font("Segoe UI Semibold", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label24.Font = new System.Drawing.Font("Magneto", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label24.Location = new System.Drawing.Point(3, 9);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(142, 47);
+            this.label24.Size = new System.Drawing.Size(162, 44);
             this.label24.TabIndex = 0;
             this.label24.Text = "Запись:";
             // 
@@ -633,8 +684,41 @@
             this.panel15.Size = new System.Drawing.Size(751, 73);
             this.panel15.TabIndex = 0;
             // 
+            // buttonSearchFaculties
+            // 
+            this.buttonSearchFaculties.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonSearchFaculties.Image = global::test_DataBase.Properties.Resources.free_icon_magnifier_2319177__1_;
+            this.buttonSearchFaculties.Location = new System.Drawing.Point(526, 3);
+            this.buttonSearchFaculties.Name = "buttonSearchFaculties";
+            this.buttonSearchFaculties.Size = new System.Drawing.Size(67, 67);
+            this.buttonSearchFaculties.TabIndex = 4;
+            this.buttonSearchFaculties.UseVisualStyleBackColor = true;
+            // 
+            // buttonClearFaculties
+            // 
+            this.buttonClearFaculties.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonClearFaculties.Image = global::test_DataBase.Properties.Resources.free_icon_eraser_67795061;
+            this.buttonClearFaculties.Location = new System.Drawing.Point(380, 3);
+            this.buttonClearFaculties.Name = "buttonClearFaculties";
+            this.buttonClearFaculties.Size = new System.Drawing.Size(67, 67);
+            this.buttonClearFaculties.TabIndex = 3;
+            this.buttonClearFaculties.UseVisualStyleBackColor = true;
+            this.buttonClearFaculties.Click += new System.EventHandler(this.ButtonClear_Click);
+            // 
+            // buttonRefreshFaculties
+            // 
+            this.buttonRefreshFaculties.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonRefreshFaculties.Image = global::test_DataBase.Properties.Resources.free_icon_updating_2990003;
+            this.buttonRefreshFaculties.Location = new System.Drawing.Point(453, 3);
+            this.buttonRefreshFaculties.Name = "buttonRefreshFaculties";
+            this.buttonRefreshFaculties.Size = new System.Drawing.Size(67, 67);
+            this.buttonRefreshFaculties.TabIndex = 2;
+            this.buttonRefreshFaculties.UseVisualStyleBackColor = true;
+            this.buttonRefreshFaculties.Click += new System.EventHandler(this.ButtonRefresh_Click);
+            // 
             // textBoxSearchFaculties
             // 
+            this.textBoxSearchFaculties.BackColor = System.Drawing.SystemColors.ControlLight;
             this.textBoxSearchFaculties.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxSearchFaculties.Location = new System.Drawing.Point(599, 32);
             this.textBoxSearchFaculties.Name = "textBoxSearchFaculties";
@@ -645,10 +729,10 @@
             // label25
             // 
             this.label25.AutoSize = true;
-            this.label25.Font = new System.Drawing.Font("Segoe UI", 36F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label25.Font = new System.Drawing.Font("Magneto", 36F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label25.Location = new System.Drawing.Point(3, 3);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(282, 65);
+            this.label25.Size = new System.Drawing.Size(308, 58);
             this.label25.TabIndex = 0;
             this.label25.Text = "Факультеты";
             // 
@@ -659,10 +743,10 @@
             this.tabPage3.Controls.Add(this.panel2);
             this.tabPage3.Controls.Add(this.dataGridViewGroups);
             this.tabPage3.Controls.Add(this.panel3);
-            this.tabPage3.Location = new System.Drawing.Point(4, 22);
+            this.tabPage3.Location = new System.Drawing.Point(4, 27);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(761, 727);
+            this.tabPage3.Size = new System.Drawing.Size(761, 722);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Группы";
             this.tabPage3.UseVisualStyleBackColor = true;
@@ -721,10 +805,10 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label1.Font = new System.Drawing.Font("Magneto", 13F, System.Drawing.FontStyle.Bold);
             this.label1.Location = new System.Drawing.Point(538, 390);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(213, 25);
+            this.label1.Size = new System.Drawing.Size(225, 22);
             this.label1.TabIndex = 3;
             this.label1.Text = "Управление записями:";
             // 
@@ -745,7 +829,7 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(25, 110);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(99, 13);
+            this.label2.Size = new System.Drawing.Size(100, 18);
             this.label2.TabIndex = 7;
             this.label2.Text = "Название группы:";
             // 
@@ -754,12 +838,13 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(80, 71);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(44, 13);
+            this.label3.Size = new System.Drawing.Size(45, 18);
             this.label3.TabIndex = 6;
             this.label3.Text = "Номер:";
             // 
             // textBoxGroupName
             // 
+            this.textBoxGroupName.BackColor = System.Drawing.SystemColors.ControlLight;
             this.textBoxGroupName.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxGroupName.Location = new System.Drawing.Point(130, 98);
             this.textBoxGroupName.Name = "textBoxGroupName";
@@ -768,6 +853,7 @@
             // 
             // textBoxGroupID
             // 
+            this.textBoxGroupID.BackColor = System.Drawing.SystemColors.ControlLight;
             this.textBoxGroupID.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxGroupID.Location = new System.Drawing.Point(130, 59);
             this.textBoxGroupID.Name = "textBoxGroupID";
@@ -777,10 +863,10 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Segoe UI Semibold", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label4.Font = new System.Drawing.Font("Magneto", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(3, 9);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(142, 47);
+            this.label4.Size = new System.Drawing.Size(162, 44);
             this.label4.TabIndex = 0;
             this.label4.Text = "Запись:";
             // 
@@ -808,8 +894,41 @@
             this.panel3.Size = new System.Drawing.Size(751, 73);
             this.panel3.TabIndex = 0;
             // 
+            // buttonSearchGroups
+            // 
+            this.buttonSearchGroups.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonSearchGroups.Image = global::test_DataBase.Properties.Resources.free_icon_magnifier_2319177__1_;
+            this.buttonSearchGroups.Location = new System.Drawing.Point(526, 3);
+            this.buttonSearchGroups.Name = "buttonSearchGroups";
+            this.buttonSearchGroups.Size = new System.Drawing.Size(67, 67);
+            this.buttonSearchGroups.TabIndex = 4;
+            this.buttonSearchGroups.UseVisualStyleBackColor = true;
+            // 
+            // buttonClearGroups
+            // 
+            this.buttonClearGroups.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonClearGroups.Image = global::test_DataBase.Properties.Resources.free_icon_eraser_67795061;
+            this.buttonClearGroups.Location = new System.Drawing.Point(380, 3);
+            this.buttonClearGroups.Name = "buttonClearGroups";
+            this.buttonClearGroups.Size = new System.Drawing.Size(67, 67);
+            this.buttonClearGroups.TabIndex = 3;
+            this.buttonClearGroups.UseVisualStyleBackColor = true;
+            this.buttonClearGroups.Click += new System.EventHandler(this.ButtonClear_Click);
+            // 
+            // buttonRefreshGroups
+            // 
+            this.buttonRefreshGroups.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonRefreshGroups.Image = global::test_DataBase.Properties.Resources.free_icon_updating_2990003;
+            this.buttonRefreshGroups.Location = new System.Drawing.Point(453, 3);
+            this.buttonRefreshGroups.Name = "buttonRefreshGroups";
+            this.buttonRefreshGroups.Size = new System.Drawing.Size(67, 67);
+            this.buttonRefreshGroups.TabIndex = 2;
+            this.buttonRefreshGroups.UseVisualStyleBackColor = true;
+            this.buttonRefreshGroups.Click += new System.EventHandler(this.ButtonRefresh_Click);
+            // 
             // textBoxSearchGroups
             // 
+            this.textBoxSearchGroups.BackColor = System.Drawing.SystemColors.ControlLight;
             this.textBoxSearchGroups.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxSearchGroups.Location = new System.Drawing.Point(599, 32);
             this.textBoxSearchGroups.Name = "textBoxSearchGroups";
@@ -820,10 +939,10 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Segoe UI", 36F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Font = new System.Drawing.Font("Magneto", 36F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(3, 3);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(192, 65);
+            this.label5.Size = new System.Drawing.Size(197, 58);
             this.label5.TabIndex = 0;
             this.label5.Text = "Группы";
             // 
@@ -834,10 +953,10 @@
             this.tabPage4.Controls.Add(this.panel5);
             this.tabPage4.Controls.Add(this.dataGridViewHousingOrders);
             this.tabPage4.Controls.Add(this.panel6);
-            this.tabPage4.Location = new System.Drawing.Point(4, 22);
+            this.tabPage4.Location = new System.Drawing.Point(4, 27);
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage4.Size = new System.Drawing.Size(761, 727);
+            this.tabPage4.Size = new System.Drawing.Size(761, 722);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "Приказы зас.";
             this.tabPage4.UseVisualStyleBackColor = true;
@@ -896,10 +1015,10 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label6.Font = new System.Drawing.Font("Magneto", 13F, System.Drawing.FontStyle.Bold);
             this.label6.Location = new System.Drawing.Point(538, 390);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(213, 25);
+            this.label6.Size = new System.Drawing.Size(225, 22);
             this.label6.TabIndex = 3;
             this.label6.Text = "Управление записями:";
             // 
@@ -924,7 +1043,7 @@
             this.label37.AutoSize = true;
             this.label37.Location = new System.Drawing.Point(32, 188);
             this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(92, 13);
+            this.label37.Size = new System.Drawing.Size(93, 18);
             this.label37.TabIndex = 12;
             this.label37.Text = "Номер студента:";
             // 
@@ -933,12 +1052,13 @@
             this.label36.AutoSize = true;
             this.label36.Location = new System.Drawing.Point(18, 149);
             this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(106, 13);
+            this.label36.Size = new System.Drawing.Size(107, 18);
             this.label36.TabIndex = 11;
             this.label36.Text = "Номер факультета:";
             // 
             // textBoxStudentIDHousingOrders
             // 
+            this.textBoxStudentIDHousingOrders.BackColor = System.Drawing.SystemColors.ControlLight;
             this.textBoxStudentIDHousingOrders.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxStudentIDHousingOrders.Location = new System.Drawing.Point(130, 176);
             this.textBoxStudentIDHousingOrders.Name = "textBoxStudentIDHousingOrders";
@@ -947,6 +1067,7 @@
             // 
             // textBoxFacultyIDHousingOrders
             // 
+            this.textBoxFacultyIDHousingOrders.BackColor = System.Drawing.SystemColors.ControlLight;
             this.textBoxFacultyIDHousingOrders.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxFacultyIDHousingOrders.Location = new System.Drawing.Point(130, 137);
             this.textBoxFacultyIDHousingOrders.Name = "textBoxFacultyIDHousingOrders";
@@ -958,7 +1079,7 @@
             this.label7.AutoSize = true;
             this.label7.Location = new System.Drawing.Point(35, 110);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(89, 13);
+            this.label7.Size = new System.Drawing.Size(90, 18);
             this.label7.TabIndex = 7;
             this.label7.Text = "Номер приказа:";
             // 
@@ -967,12 +1088,13 @@
             this.label8.AutoSize = true;
             this.label8.Location = new System.Drawing.Point(80, 71);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(44, 13);
+            this.label8.Size = new System.Drawing.Size(45, 18);
             this.label8.TabIndex = 6;
             this.label8.Text = "Номер:";
             // 
             // textBoxOrderNumber
             // 
+            this.textBoxOrderNumber.BackColor = System.Drawing.SystemColors.ControlLight;
             this.textBoxOrderNumber.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxOrderNumber.Location = new System.Drawing.Point(130, 98);
             this.textBoxOrderNumber.Name = "textBoxOrderNumber";
@@ -981,6 +1103,7 @@
             // 
             // textBoxOrderID
             // 
+            this.textBoxOrderID.BackColor = System.Drawing.SystemColors.ControlLight;
             this.textBoxOrderID.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxOrderID.Location = new System.Drawing.Point(130, 59);
             this.textBoxOrderID.Name = "textBoxOrderID";
@@ -990,10 +1113,10 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Segoe UI Semibold", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label9.Font = new System.Drawing.Font("Magneto", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.Location = new System.Drawing.Point(3, 9);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(142, 47);
+            this.label9.Size = new System.Drawing.Size(162, 44);
             this.label9.TabIndex = 0;
             this.label9.Text = "Запись:";
             // 
@@ -1021,8 +1144,40 @@
             this.panel6.Size = new System.Drawing.Size(751, 73);
             this.panel6.TabIndex = 0;
             // 
+            // buttonSearchHousingOrders
+            // 
+            this.buttonSearchHousingOrders.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonSearchHousingOrders.Image = global::test_DataBase.Properties.Resources.free_icon_magnifier_2319177__1_;
+            this.buttonSearchHousingOrders.Location = new System.Drawing.Point(526, 3);
+            this.buttonSearchHousingOrders.Name = "buttonSearchHousingOrders";
+            this.buttonSearchHousingOrders.Size = new System.Drawing.Size(67, 67);
+            this.buttonSearchHousingOrders.TabIndex = 4;
+            this.buttonSearchHousingOrders.UseVisualStyleBackColor = true;
+            // 
+            // buttonClearHousingOrders
+            // 
+            this.buttonClearHousingOrders.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonClearHousingOrders.Image = global::test_DataBase.Properties.Resources.free_icon_eraser_67795061;
+            this.buttonClearHousingOrders.Location = new System.Drawing.Point(380, 3);
+            this.buttonClearHousingOrders.Name = "buttonClearHousingOrders";
+            this.buttonClearHousingOrders.Size = new System.Drawing.Size(67, 67);
+            this.buttonClearHousingOrders.TabIndex = 3;
+            this.buttonClearHousingOrders.UseVisualStyleBackColor = true;
+            // 
+            // buttonRefreshHousingOrders
+            // 
+            this.buttonRefreshHousingOrders.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonRefreshHousingOrders.Image = global::test_DataBase.Properties.Resources.free_icon_updating_2990003;
+            this.buttonRefreshHousingOrders.Location = new System.Drawing.Point(453, 3);
+            this.buttonRefreshHousingOrders.Name = "buttonRefreshHousingOrders";
+            this.buttonRefreshHousingOrders.Size = new System.Drawing.Size(67, 67);
+            this.buttonRefreshHousingOrders.TabIndex = 2;
+            this.buttonRefreshHousingOrders.UseVisualStyleBackColor = true;
+            this.buttonRefreshHousingOrders.Click += new System.EventHandler(this.ButtonRefresh_Click);
+            // 
             // textBoxSearchHousingOrders
             // 
+            this.textBoxSearchHousingOrders.BackColor = System.Drawing.SystemColors.ControlLight;
             this.textBoxSearchHousingOrders.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxSearchHousingOrders.Location = new System.Drawing.Point(599, 32);
             this.textBoxSearchHousingOrders.Name = "textBoxSearchHousingOrders";
@@ -1033,10 +1188,10 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Segoe UI", 36F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Font = new System.Drawing.Font("Magneto", 36F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.Location = new System.Drawing.Point(3, 3);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(311, 65);
+            this.label10.Size = new System.Drawing.Size(341, 58);
             this.label10.TabIndex = 0;
             this.label10.Text = "Приказы зас.";
             // 
@@ -1047,10 +1202,10 @@
             this.tabPage5.Controls.Add(this.panel8);
             this.tabPage5.Controls.Add(this.dataGridViewHousingPayments);
             this.tabPage5.Controls.Add(this.panel9);
-            this.tabPage5.Location = new System.Drawing.Point(4, 22);
+            this.tabPage5.Location = new System.Drawing.Point(4, 27);
             this.tabPage5.Name = "tabPage5";
             this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage5.Size = new System.Drawing.Size(761, 727);
+            this.tabPage5.Size = new System.Drawing.Size(761, 722);
             this.tabPage5.TabIndex = 4;
             this.tabPage5.Text = "Оплата прож.";
             this.tabPage5.UseVisualStyleBackColor = true;
@@ -1109,10 +1264,10 @@
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label11.Font = new System.Drawing.Font("Magneto", 13F, System.Drawing.FontStyle.Bold);
             this.label11.Location = new System.Drawing.Point(538, 390);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(213, 25);
+            this.label11.Size = new System.Drawing.Size(225, 22);
             this.label11.TabIndex = 3;
             this.label11.Text = "Управление записями:";
             // 
@@ -1137,7 +1292,7 @@
             this.label39.AutoSize = true;
             this.label39.Location = new System.Drawing.Point(33, 188);
             this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(92, 13);
+            this.label39.Size = new System.Drawing.Size(93, 18);
             this.label39.TabIndex = 12;
             this.label39.Text = "Номер студента:";
             // 
@@ -1146,12 +1301,13 @@
             this.label38.AutoSize = true;
             this.label38.Location = new System.Drawing.Point(33, 149);
             this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(91, 13);
+            this.label38.Size = new System.Drawing.Size(92, 18);
             this.label38.TabIndex = 11;
             this.label38.Text = "Сумма к оплате:";
             // 
             // textBoxStudentIDHousingPayments
             // 
+            this.textBoxStudentIDHousingPayments.BackColor = System.Drawing.SystemColors.ControlLight;
             this.textBoxStudentIDHousingPayments.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxStudentIDHousingPayments.Location = new System.Drawing.Point(130, 176);
             this.textBoxStudentIDHousingPayments.Name = "textBoxStudentIDHousingPayments";
@@ -1160,6 +1316,7 @@
             // 
             // textBoxPaidAmount
             // 
+            this.textBoxPaidAmount.BackColor = System.Drawing.SystemColors.ControlLight;
             this.textBoxPaidAmount.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxPaidAmount.Location = new System.Drawing.Point(130, 137);
             this.textBoxPaidAmount.Name = "textBoxPaidAmount";
@@ -1171,7 +1328,7 @@
             this.label12.AutoSize = true;
             this.label12.Location = new System.Drawing.Point(48, 110);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(76, 13);
+            this.label12.Size = new System.Drawing.Size(77, 18);
             this.label12.TabIndex = 7;
             this.label12.Text = "Дата оплаты:";
             // 
@@ -1180,12 +1337,13 @@
             this.label13.AutoSize = true;
             this.label13.Location = new System.Drawing.Point(80, 71);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(44, 13);
+            this.label13.Size = new System.Drawing.Size(45, 18);
             this.label13.TabIndex = 6;
             this.label13.Text = "Номер:";
             // 
             // textBoxPaymentDate
             // 
+            this.textBoxPaymentDate.BackColor = System.Drawing.SystemColors.ControlLight;
             this.textBoxPaymentDate.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxPaymentDate.Location = new System.Drawing.Point(130, 98);
             this.textBoxPaymentDate.Name = "textBoxPaymentDate";
@@ -1194,6 +1352,7 @@
             // 
             // textBoxPaymentID
             // 
+            this.textBoxPaymentID.BackColor = System.Drawing.SystemColors.ControlLight;
             this.textBoxPaymentID.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxPaymentID.Location = new System.Drawing.Point(130, 59);
             this.textBoxPaymentID.Name = "textBoxPaymentID";
@@ -1203,10 +1362,10 @@
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Segoe UI Semibold", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label14.Font = new System.Drawing.Font("Magneto", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label14.Location = new System.Drawing.Point(3, 9);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(142, 47);
+            this.label14.Size = new System.Drawing.Size(162, 44);
             this.label14.TabIndex = 0;
             this.label14.Text = "Запись:";
             // 
@@ -1234,8 +1393,41 @@
             this.panel9.Size = new System.Drawing.Size(751, 73);
             this.panel9.TabIndex = 0;
             // 
+            // buttonSearchHousingPayments
+            // 
+            this.buttonSearchHousingPayments.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonSearchHousingPayments.Image = global::test_DataBase.Properties.Resources.free_icon_magnifier_2319177__1_;
+            this.buttonSearchHousingPayments.Location = new System.Drawing.Point(526, 3);
+            this.buttonSearchHousingPayments.Name = "buttonSearchHousingPayments";
+            this.buttonSearchHousingPayments.Size = new System.Drawing.Size(67, 67);
+            this.buttonSearchHousingPayments.TabIndex = 4;
+            this.buttonSearchHousingPayments.UseVisualStyleBackColor = true;
+            // 
+            // buttonClearHousingPayments
+            // 
+            this.buttonClearHousingPayments.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonClearHousingPayments.Image = global::test_DataBase.Properties.Resources.free_icon_eraser_67795061;
+            this.buttonClearHousingPayments.Location = new System.Drawing.Point(380, 3);
+            this.buttonClearHousingPayments.Name = "buttonClearHousingPayments";
+            this.buttonClearHousingPayments.Size = new System.Drawing.Size(67, 67);
+            this.buttonClearHousingPayments.TabIndex = 3;
+            this.buttonClearHousingPayments.UseVisualStyleBackColor = true;
+            this.buttonClearHousingPayments.Click += new System.EventHandler(this.ButtonClear_Click);
+            // 
+            // buttonRefreshHousingPayments
+            // 
+            this.buttonRefreshHousingPayments.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonRefreshHousingPayments.Image = global::test_DataBase.Properties.Resources.free_icon_updating_2990003;
+            this.buttonRefreshHousingPayments.Location = new System.Drawing.Point(453, 3);
+            this.buttonRefreshHousingPayments.Name = "buttonRefreshHousingPayments";
+            this.buttonRefreshHousingPayments.Size = new System.Drawing.Size(67, 67);
+            this.buttonRefreshHousingPayments.TabIndex = 2;
+            this.buttonRefreshHousingPayments.UseVisualStyleBackColor = true;
+            this.buttonRefreshHousingPayments.Click += new System.EventHandler(this.ButtonRefresh_Click);
+            // 
             // textBoxSearchHousingPayments
             // 
+            this.textBoxSearchHousingPayments.BackColor = System.Drawing.SystemColors.ControlLight;
             this.textBoxSearchHousingPayments.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxSearchHousingPayments.Location = new System.Drawing.Point(599, 32);
             this.textBoxSearchHousingPayments.Name = "textBoxSearchHousingPayments";
@@ -1246,10 +1438,10 @@
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Segoe UI", 36F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.Font = new System.Drawing.Font("Magneto", 36F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label15.Location = new System.Drawing.Point(3, 3);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(328, 65);
+            this.label15.Size = new System.Drawing.Size(350, 58);
             this.label15.TabIndex = 0;
             this.label15.Text = "Оплата прож.";
             // 
@@ -1260,10 +1452,10 @@
             this.tabPage6.Controls.Add(this.panel11);
             this.tabPage6.Controls.Add(this.dataGridViewRoomAssignment);
             this.tabPage6.Controls.Add(this.panel12);
-            this.tabPage6.Location = new System.Drawing.Point(4, 22);
+            this.tabPage6.Location = new System.Drawing.Point(4, 27);
             this.tabPage6.Name = "tabPage6";
             this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage6.Size = new System.Drawing.Size(761, 727);
+            this.tabPage6.Size = new System.Drawing.Size(761, 722);
             this.tabPage6.TabIndex = 5;
             this.tabPage6.Text = "Привязка комн.";
             this.tabPage6.UseVisualStyleBackColor = true;
@@ -1322,10 +1514,10 @@
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label16.Font = new System.Drawing.Font("Magneto", 13F, System.Drawing.FontStyle.Bold);
             this.label16.Location = new System.Drawing.Point(538, 390);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(213, 25);
+            this.label16.Size = new System.Drawing.Size(225, 22);
             this.label16.TabIndex = 3;
             this.label16.Text = "Управление записями:";
             // 
@@ -1348,12 +1540,13 @@
             this.label40.AutoSize = true;
             this.label40.Location = new System.Drawing.Point(32, 149);
             this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(92, 13);
+            this.label40.Size = new System.Drawing.Size(93, 18);
             this.label40.TabIndex = 9;
             this.label40.Text = "Номер комнаты:";
             // 
             // textBoxRoomIDRoomAssignment
             // 
+            this.textBoxRoomIDRoomAssignment.BackColor = System.Drawing.SystemColors.ControlLight;
             this.textBoxRoomIDRoomAssignment.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxRoomIDRoomAssignment.Location = new System.Drawing.Point(130, 137);
             this.textBoxRoomIDRoomAssignment.Name = "textBoxRoomIDRoomAssignment";
@@ -1365,7 +1558,7 @@
             this.label17.AutoSize = true;
             this.label17.Location = new System.Drawing.Point(32, 110);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(92, 13);
+            this.label17.Size = new System.Drawing.Size(93, 18);
             this.label17.TabIndex = 7;
             this.label17.Text = "Номер студента:";
             // 
@@ -1374,12 +1567,13 @@
             this.label18.AutoSize = true;
             this.label18.Location = new System.Drawing.Point(80, 71);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(44, 13);
+            this.label18.Size = new System.Drawing.Size(45, 18);
             this.label18.TabIndex = 6;
             this.label18.Text = "Номер:";
             // 
             // textBoxStudentIDRoomAssignment
             // 
+            this.textBoxStudentIDRoomAssignment.BackColor = System.Drawing.SystemColors.ControlLight;
             this.textBoxStudentIDRoomAssignment.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxStudentIDRoomAssignment.Location = new System.Drawing.Point(130, 98);
             this.textBoxStudentIDRoomAssignment.Name = "textBoxStudentIDRoomAssignment";
@@ -1388,6 +1582,7 @@
             // 
             // textBoxRoomAssignmentID
             // 
+            this.textBoxRoomAssignmentID.BackColor = System.Drawing.SystemColors.ControlLight;
             this.textBoxRoomAssignmentID.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxRoomAssignmentID.Location = new System.Drawing.Point(130, 59);
             this.textBoxRoomAssignmentID.Name = "textBoxRoomAssignmentID";
@@ -1397,10 +1592,10 @@
             // label19
             // 
             this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Segoe UI Semibold", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label19.Font = new System.Drawing.Font("Magneto", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label19.Location = new System.Drawing.Point(3, 9);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(142, 47);
+            this.label19.Size = new System.Drawing.Size(162, 44);
             this.label19.TabIndex = 0;
             this.label19.Text = "Запись:";
             // 
@@ -1428,8 +1623,41 @@
             this.panel12.Size = new System.Drawing.Size(751, 73);
             this.panel12.TabIndex = 0;
             // 
+            // buttonSearchRoomAssignment
+            // 
+            this.buttonSearchRoomAssignment.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonSearchRoomAssignment.Image = global::test_DataBase.Properties.Resources.free_icon_magnifier_2319177__1_;
+            this.buttonSearchRoomAssignment.Location = new System.Drawing.Point(526, 3);
+            this.buttonSearchRoomAssignment.Name = "buttonSearchRoomAssignment";
+            this.buttonSearchRoomAssignment.Size = new System.Drawing.Size(67, 67);
+            this.buttonSearchRoomAssignment.TabIndex = 4;
+            this.buttonSearchRoomAssignment.UseVisualStyleBackColor = true;
+            // 
+            // buttonClearRoomAssignment
+            // 
+            this.buttonClearRoomAssignment.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonClearRoomAssignment.Image = global::test_DataBase.Properties.Resources.free_icon_eraser_67795061;
+            this.buttonClearRoomAssignment.Location = new System.Drawing.Point(380, 3);
+            this.buttonClearRoomAssignment.Name = "buttonClearRoomAssignment";
+            this.buttonClearRoomAssignment.Size = new System.Drawing.Size(67, 67);
+            this.buttonClearRoomAssignment.TabIndex = 3;
+            this.buttonClearRoomAssignment.UseVisualStyleBackColor = true;
+            this.buttonClearRoomAssignment.Click += new System.EventHandler(this.ButtonClear_Click);
+            // 
+            // buttonRefreshRoomAssignment
+            // 
+            this.buttonRefreshRoomAssignment.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonRefreshRoomAssignment.Image = global::test_DataBase.Properties.Resources.free_icon_updating_2990003;
+            this.buttonRefreshRoomAssignment.Location = new System.Drawing.Point(453, 3);
+            this.buttonRefreshRoomAssignment.Name = "buttonRefreshRoomAssignment";
+            this.buttonRefreshRoomAssignment.Size = new System.Drawing.Size(67, 67);
+            this.buttonRefreshRoomAssignment.TabIndex = 2;
+            this.buttonRefreshRoomAssignment.UseVisualStyleBackColor = true;
+            this.buttonRefreshRoomAssignment.Click += new System.EventHandler(this.ButtonRefresh_Click);
+            // 
             // textBoxSearchRoomAssignment
             // 
+            this.textBoxSearchRoomAssignment.BackColor = System.Drawing.SystemColors.ControlLight;
             this.textBoxSearchRoomAssignment.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxSearchRoomAssignment.Location = new System.Drawing.Point(599, 32);
             this.textBoxSearchRoomAssignment.Name = "textBoxSearchRoomAssignment";
@@ -1440,10 +1668,10 @@
             // label20
             // 
             this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("Segoe UI", 36F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.Font = new System.Drawing.Font("Magneto", 35F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
             this.label20.Location = new System.Drawing.Point(3, 3);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(373, 65);
+            this.label20.Size = new System.Drawing.Size(388, 56);
             this.label20.TabIndex = 0;
             this.label20.Text = "Привязка комн.";
             // 
@@ -1454,10 +1682,10 @@
             this.tabPage7.Controls.Add(this.panel17);
             this.tabPage7.Controls.Add(this.dataGridViewRooms);
             this.tabPage7.Controls.Add(this.panel18);
-            this.tabPage7.Location = new System.Drawing.Point(4, 22);
+            this.tabPage7.Location = new System.Drawing.Point(4, 27);
             this.tabPage7.Name = "tabPage7";
             this.tabPage7.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage7.Size = new System.Drawing.Size(761, 727);
+            this.tabPage7.Size = new System.Drawing.Size(761, 722);
             this.tabPage7.TabIndex = 7;
             this.tabPage7.Text = "Комнаты";
             this.tabPage7.UseVisualStyleBackColor = true;
@@ -1516,10 +1744,10 @@
             // label26
             // 
             this.label26.AutoSize = true;
-            this.label26.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label26.Font = new System.Drawing.Font("Magneto", 13F, System.Drawing.FontStyle.Bold);
             this.label26.Location = new System.Drawing.Point(538, 390);
             this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(213, 25);
+            this.label26.Size = new System.Drawing.Size(225, 22);
             this.label26.TabIndex = 3;
             this.label26.Text = "Управление записями:";
             // 
@@ -1550,7 +1778,7 @@
             this.label45.AutoSize = true;
             this.label45.Location = new System.Drawing.Point(19, 302);
             this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(105, 13);
+            this.label45.Size = new System.Drawing.Size(106, 18);
             this.label45.TabIndex = 17;
             this.label45.Text = "Номер общежития:";
             // 
@@ -1559,39 +1787,40 @@
             this.label44.AutoSize = true;
             this.label44.Location = new System.Drawing.Point(23, 263);
             this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(101, 13);
+            this.label44.Size = new System.Drawing.Size(102, 18);
             this.label44.TabIndex = 16;
             this.label44.Text = "Доп. информация:";
             // 
             // label43
             // 
             this.label43.AutoSize = true;
-            this.label43.Location = new System.Drawing.Point(12, 227);
+            this.label43.Location = new System.Drawing.Point(32, 227);
             this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(112, 13);
+            this.label43.Size = new System.Drawing.Size(90, 18);
             this.label43.TabIndex = 15;
-            this.label43.Text = "Количество стульев:";
+            this.label43.Text = "Кол-во стульев:";
             // 
             // label42
             // 
             this.label42.AutoSize = true;
-            this.label42.Location = new System.Drawing.Point(12, 188);
+            this.label42.Location = new System.Drawing.Point(32, 188);
             this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(112, 13);
+            this.label42.Size = new System.Drawing.Size(90, 18);
             this.label42.TabIndex = 14;
-            this.label42.Text = "Количество шкафов:";
+            this.label42.Text = "Кол-во шкафов:";
             // 
             // label41
             // 
             this.label41.AutoSize = true;
             this.label41.Location = new System.Drawing.Point(45, 149);
             this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(79, 13);
+            this.label41.Size = new System.Drawing.Size(80, 18);
             this.label41.TabIndex = 13;
             this.label41.Text = "Вместимость:";
             // 
             // textBoxAdditionalInfo
             // 
+            this.textBoxAdditionalInfo.BackColor = System.Drawing.SystemColors.ControlLight;
             this.textBoxAdditionalInfo.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxAdditionalInfo.Location = new System.Drawing.Point(130, 251);
             this.textBoxAdditionalInfo.Name = "textBoxAdditionalInfo";
@@ -1600,6 +1829,7 @@
             // 
             // textBoxDormitoryIDRooms
             // 
+            this.textBoxDormitoryIDRooms.BackColor = System.Drawing.SystemColors.ControlLight;
             this.textBoxDormitoryIDRooms.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxDormitoryIDRooms.Location = new System.Drawing.Point(130, 290);
             this.textBoxDormitoryIDRooms.Name = "textBoxDormitoryIDRooms";
@@ -1608,6 +1838,7 @@
             // 
             // textBoxNumberOfCabinets
             // 
+            this.textBoxNumberOfCabinets.BackColor = System.Drawing.SystemColors.ControlLight;
             this.textBoxNumberOfCabinets.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxNumberOfCabinets.Location = new System.Drawing.Point(130, 176);
             this.textBoxNumberOfCabinets.Name = "textBoxNumberOfCabinets";
@@ -1616,6 +1847,7 @@
             // 
             // textBoxNumberOfChairs
             // 
+            this.textBoxNumberOfChairs.BackColor = System.Drawing.SystemColors.ControlLight;
             this.textBoxNumberOfChairs.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxNumberOfChairs.Location = new System.Drawing.Point(130, 215);
             this.textBoxNumberOfChairs.Name = "textBoxNumberOfChairs";
@@ -1624,6 +1856,7 @@
             // 
             // textBoxCapacity
             // 
+            this.textBoxCapacity.BackColor = System.Drawing.SystemColors.ControlLight;
             this.textBoxCapacity.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxCapacity.Location = new System.Drawing.Point(130, 137);
             this.textBoxCapacity.Name = "textBoxCapacity";
@@ -1635,7 +1868,7 @@
             this.label27.AutoSize = true;
             this.label27.Location = new System.Drawing.Point(32, 110);
             this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(92, 13);
+            this.label27.Size = new System.Drawing.Size(93, 18);
             this.label27.TabIndex = 7;
             this.label27.Text = "Номер комнаты:";
             // 
@@ -1644,12 +1877,13 @@
             this.label28.AutoSize = true;
             this.label28.Location = new System.Drawing.Point(80, 71);
             this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(44, 13);
+            this.label28.Size = new System.Drawing.Size(45, 18);
             this.label28.TabIndex = 6;
             this.label28.Text = "Номер:";
             // 
             // textBoxRoomNumber
             // 
+            this.textBoxRoomNumber.BackColor = System.Drawing.SystemColors.ControlLight;
             this.textBoxRoomNumber.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxRoomNumber.Location = new System.Drawing.Point(130, 98);
             this.textBoxRoomNumber.Name = "textBoxRoomNumber";
@@ -1658,6 +1892,7 @@
             // 
             // textBoxRoomID
             // 
+            this.textBoxRoomID.BackColor = System.Drawing.SystemColors.ControlLight;
             this.textBoxRoomID.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxRoomID.Location = new System.Drawing.Point(130, 59);
             this.textBoxRoomID.Name = "textBoxRoomID";
@@ -1667,10 +1902,10 @@
             // label29
             // 
             this.label29.AutoSize = true;
-            this.label29.Font = new System.Drawing.Font("Segoe UI Semibold", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label29.Font = new System.Drawing.Font("Magneto", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label29.Location = new System.Drawing.Point(3, 9);
             this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(142, 47);
+            this.label29.Size = new System.Drawing.Size(162, 44);
             this.label29.TabIndex = 0;
             this.label29.Text = "Запись:";
             // 
@@ -1698,8 +1933,41 @@
             this.panel18.Size = new System.Drawing.Size(751, 73);
             this.panel18.TabIndex = 0;
             // 
+            // buttonSearchRooms
+            // 
+            this.buttonSearchRooms.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonSearchRooms.Image = global::test_DataBase.Properties.Resources.free_icon_magnifier_2319177__1_;
+            this.buttonSearchRooms.Location = new System.Drawing.Point(526, 3);
+            this.buttonSearchRooms.Name = "buttonSearchRooms";
+            this.buttonSearchRooms.Size = new System.Drawing.Size(67, 67);
+            this.buttonSearchRooms.TabIndex = 4;
+            this.buttonSearchRooms.UseVisualStyleBackColor = true;
+            // 
+            // buttonClearRooms
+            // 
+            this.buttonClearRooms.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonClearRooms.Image = global::test_DataBase.Properties.Resources.free_icon_eraser_67795061;
+            this.buttonClearRooms.Location = new System.Drawing.Point(380, 3);
+            this.buttonClearRooms.Name = "buttonClearRooms";
+            this.buttonClearRooms.Size = new System.Drawing.Size(67, 67);
+            this.buttonClearRooms.TabIndex = 3;
+            this.buttonClearRooms.UseVisualStyleBackColor = true;
+            this.buttonClearRooms.Click += new System.EventHandler(this.ButtonClear_Click);
+            // 
+            // buttonRefreshRooms
+            // 
+            this.buttonRefreshRooms.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonRefreshRooms.Image = global::test_DataBase.Properties.Resources.free_icon_updating_2990003;
+            this.buttonRefreshRooms.Location = new System.Drawing.Point(453, 3);
+            this.buttonRefreshRooms.Name = "buttonRefreshRooms";
+            this.buttonRefreshRooms.Size = new System.Drawing.Size(67, 67);
+            this.buttonRefreshRooms.TabIndex = 2;
+            this.buttonRefreshRooms.UseVisualStyleBackColor = true;
+            this.buttonRefreshRooms.Click += new System.EventHandler(this.ButtonRefresh_Click);
+            // 
             // textBoxSearchRooms
             // 
+            this.textBoxSearchRooms.BackColor = System.Drawing.SystemColors.ControlLight;
             this.textBoxSearchRooms.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxSearchRooms.Location = new System.Drawing.Point(599, 32);
             this.textBoxSearchRooms.Name = "textBoxSearchRooms";
@@ -1710,10 +1978,10 @@
             // label30
             // 
             this.label30.AutoSize = true;
-            this.label30.Font = new System.Drawing.Font("Segoe UI", 36F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label30.Font = new System.Drawing.Font("Magneto", 36F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label30.Location = new System.Drawing.Point(3, 3);
             this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(224, 65);
+            this.label30.Size = new System.Drawing.Size(235, 58);
             this.label30.TabIndex = 0;
             this.label30.Text = "Комнаты";
             // 
@@ -1724,10 +1992,10 @@
             this.tabPage8.Controls.Add(this.panel20);
             this.tabPage8.Controls.Add(this.dataGridViewStudents);
             this.tabPage8.Controls.Add(this.panel21);
-            this.tabPage8.Location = new System.Drawing.Point(4, 22);
+            this.tabPage8.Location = new System.Drawing.Point(4, 27);
             this.tabPage8.Name = "tabPage8";
             this.tabPage8.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage8.Size = new System.Drawing.Size(761, 727);
+            this.tabPage8.Size = new System.Drawing.Size(761, 722);
             this.tabPage8.TabIndex = 8;
             this.tabPage8.Text = "Студенты";
             this.tabPage8.UseVisualStyleBackColor = true;
@@ -1786,10 +2054,10 @@
             // label31
             // 
             this.label31.AutoSize = true;
-            this.label31.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label31.Font = new System.Drawing.Font("Magneto", 13F, System.Drawing.FontStyle.Bold);
             this.label31.Location = new System.Drawing.Point(538, 390);
             this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(213, 25);
+            this.label31.Size = new System.Drawing.Size(225, 22);
             this.label31.TabIndex = 3;
             this.label31.Text = "Управление записями:";
             // 
@@ -1816,7 +2084,7 @@
             this.label48.AutoSize = true;
             this.label48.Location = new System.Drawing.Point(24, 227);
             this.label48.Name = "label48";
-            this.label48.Size = new System.Drawing.Size(100, 13);
+            this.label48.Size = new System.Drawing.Size(101, 18);
             this.label48.TabIndex = 13;
             this.label48.Text = "Номер пасспорта:";
             // 
@@ -1825,7 +2093,7 @@
             this.label47.AutoSize = true;
             this.label47.Location = new System.Drawing.Point(18, 188);
             this.label47.Name = "label47";
-            this.label47.Size = new System.Drawing.Size(106, 13);
+            this.label47.Size = new System.Drawing.Size(107, 18);
             this.label47.TabIndex = 12;
             this.label47.Text = "Номер факультета:";
             // 
@@ -1834,12 +2102,13 @@
             this.label46.AutoSize = true;
             this.label46.Location = new System.Drawing.Point(41, 149);
             this.label46.Name = "label46";
-            this.label46.Size = new System.Drawing.Size(83, 13);
+            this.label46.Size = new System.Drawing.Size(84, 18);
             this.label46.TabIndex = 11;
             this.label46.Text = "Номер группы:";
             // 
             // textBoxFacultyIDStudents
             // 
+            this.textBoxFacultyIDStudents.BackColor = System.Drawing.SystemColors.ControlLight;
             this.textBoxFacultyIDStudents.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxFacultyIDStudents.Location = new System.Drawing.Point(130, 176);
             this.textBoxFacultyIDStudents.Name = "textBoxFacultyIDStudents";
@@ -1848,6 +2117,7 @@
             // 
             // textBoxPassportNumber
             // 
+            this.textBoxPassportNumber.BackColor = System.Drawing.SystemColors.ControlLight;
             this.textBoxPassportNumber.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxPassportNumber.Location = new System.Drawing.Point(130, 215);
             this.textBoxPassportNumber.Name = "textBoxPassportNumber";
@@ -1856,6 +2126,7 @@
             // 
             // textBoxGroupIDStudents
             // 
+            this.textBoxGroupIDStudents.BackColor = System.Drawing.SystemColors.ControlLight;
             this.textBoxGroupIDStudents.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxGroupIDStudents.Location = new System.Drawing.Point(130, 137);
             this.textBoxGroupIDStudents.Name = "textBoxGroupIDStudents";
@@ -1865,23 +2136,24 @@
             // label32
             // 
             this.label32.AutoSize = true;
-            this.label32.Location = new System.Drawing.Point(53, 110);
+            this.label32.Location = new System.Drawing.Point(80, 110);
             this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(71, 13);
+            this.label32.Size = new System.Drawing.Size(38, 18);
             this.label32.TabIndex = 7;
-            this.label32.Text = "Полное имя:";
+            this.label32.Text = "ФИО:";
             // 
             // label33
             // 
             this.label33.AutoSize = true;
             this.label33.Location = new System.Drawing.Point(80, 71);
             this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(44, 13);
+            this.label33.Size = new System.Drawing.Size(45, 18);
             this.label33.TabIndex = 6;
             this.label33.Text = "Номер:";
             // 
             // textBoxFullName
             // 
+            this.textBoxFullName.BackColor = System.Drawing.SystemColors.ControlLight;
             this.textBoxFullName.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxFullName.Location = new System.Drawing.Point(130, 98);
             this.textBoxFullName.Name = "textBoxFullName";
@@ -1890,6 +2162,7 @@
             // 
             // textBoxStudentID
             // 
+            this.textBoxStudentID.BackColor = System.Drawing.SystemColors.ControlLight;
             this.textBoxStudentID.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxStudentID.Location = new System.Drawing.Point(130, 59);
             this.textBoxStudentID.Name = "textBoxStudentID";
@@ -1899,10 +2172,10 @@
             // label34
             // 
             this.label34.AutoSize = true;
-            this.label34.Font = new System.Drawing.Font("Segoe UI Semibold", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label34.Font = new System.Drawing.Font("Magneto", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label34.Location = new System.Drawing.Point(3, 9);
             this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(142, 47);
+            this.label34.Size = new System.Drawing.Size(162, 44);
             this.label34.TabIndex = 0;
             this.label34.Text = "Запись:";
             // 
@@ -1930,252 +2203,10 @@
             this.panel21.Size = new System.Drawing.Size(751, 73);
             this.panel21.TabIndex = 0;
             // 
-            // textBoxSearchStudents
-            // 
-            this.textBoxSearchStudents.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBoxSearchStudents.Location = new System.Drawing.Point(599, 32);
-            this.textBoxSearchStudents.Name = "textBoxSearchStudents";
-            this.textBoxSearchStudents.Size = new System.Drawing.Size(149, 33);
-            this.textBoxSearchStudents.TabIndex = 1;
-            this.textBoxSearchStudents.TextChanged += new System.EventHandler(this.TextBoxSearchStudents_TextChanged);
-            // 
-            // label35
-            // 
-            this.label35.AutoSize = true;
-            this.label35.Font = new System.Drawing.Font("Segoe UI", 36F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label35.Location = new System.Drawing.Point(3, 3);
-            this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(234, 65);
-            this.label35.TabIndex = 0;
-            this.label35.Text = "Студенты";
-            // 
-            // buttonSearchDormitories
-            // 
-            this.buttonSearchDormitories.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonSearchDormitories.Image = global::test_DataBase.Properties.Resources.free_icon_magnifier_2319177__1_;
-            this.buttonSearchDormitories.Location = new System.Drawing.Point(526, 3);
-            this.buttonSearchDormitories.Name = "buttonSearchDormitories";
-            this.buttonSearchDormitories.Size = new System.Drawing.Size(67, 67);
-            this.buttonSearchDormitories.TabIndex = 4;
-            this.buttonSearchDormitories.UseVisualStyleBackColor = true;
-            // 
-            // buttonClearDormitories
-            // 
-            this.buttonClearDormitories.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonClearDormitories.Image = global::test_DataBase.Properties.Resources.free_icon_eraser_67795061;
-            this.buttonClearDormitories.Location = new System.Drawing.Point(380, 3);
-            this.buttonClearDormitories.Name = "buttonClearDormitories";
-            this.buttonClearDormitories.Size = new System.Drawing.Size(67, 67);
-            this.buttonClearDormitories.TabIndex = 3;
-            this.buttonClearDormitories.UseVisualStyleBackColor = true;
-            this.buttonClearDormitories.Click += new System.EventHandler(this.ButtonClear_Click);
-            // 
-            // buttonRefreshDormitories
-            // 
-            this.buttonRefreshDormitories.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonRefreshDormitories.Image = global::test_DataBase.Properties.Resources.free_icon_updating_2990003;
-            this.buttonRefreshDormitories.Location = new System.Drawing.Point(453, 3);
-            this.buttonRefreshDormitories.Name = "buttonRefreshDormitories";
-            this.buttonRefreshDormitories.Size = new System.Drawing.Size(67, 67);
-            this.buttonRefreshDormitories.TabIndex = 2;
-            this.buttonRefreshDormitories.UseVisualStyleBackColor = true;
-            this.buttonRefreshDormitories.Click += new System.EventHandler(this.ButtonRefresh_Click);
-            // 
-            // buttonSearchFaculties
-            // 
-            this.buttonSearchFaculties.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonSearchFaculties.Image = global::test_DataBase.Properties.Resources.free_icon_magnifier_2319177__1_;
-            this.buttonSearchFaculties.Location = new System.Drawing.Point(526, 3);
-            this.buttonSearchFaculties.Name = "buttonSearchFaculties";
-            this.buttonSearchFaculties.Size = new System.Drawing.Size(67, 67);
-            this.buttonSearchFaculties.TabIndex = 4;
-            this.buttonSearchFaculties.UseVisualStyleBackColor = true;
-            // 
-            // buttonClearFaculties
-            // 
-            this.buttonClearFaculties.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonClearFaculties.Image = global::test_DataBase.Properties.Resources.free_icon_eraser_67795061;
-            this.buttonClearFaculties.Location = new System.Drawing.Point(380, 3);
-            this.buttonClearFaculties.Name = "buttonClearFaculties";
-            this.buttonClearFaculties.Size = new System.Drawing.Size(67, 67);
-            this.buttonClearFaculties.TabIndex = 3;
-            this.buttonClearFaculties.UseVisualStyleBackColor = true;
-            this.buttonClearFaculties.Click += new System.EventHandler(this.ButtonClear_Click);
-            // 
-            // buttonRefreshFaculties
-            // 
-            this.buttonRefreshFaculties.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonRefreshFaculties.Image = global::test_DataBase.Properties.Resources.free_icon_updating_2990003;
-            this.buttonRefreshFaculties.Location = new System.Drawing.Point(453, 3);
-            this.buttonRefreshFaculties.Name = "buttonRefreshFaculties";
-            this.buttonRefreshFaculties.Size = new System.Drawing.Size(67, 67);
-            this.buttonRefreshFaculties.TabIndex = 2;
-            this.buttonRefreshFaculties.UseVisualStyleBackColor = true;
-            this.buttonRefreshFaculties.Click += new System.EventHandler(this.ButtonRefresh_Click);
-            // 
-            // buttonSearchGroups
-            // 
-            this.buttonSearchGroups.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonSearchGroups.Image = global::test_DataBase.Properties.Resources.free_icon_magnifier_2319177__1_;
-            this.buttonSearchGroups.Location = new System.Drawing.Point(526, 3);
-            this.buttonSearchGroups.Name = "buttonSearchGroups";
-            this.buttonSearchGroups.Size = new System.Drawing.Size(67, 67);
-            this.buttonSearchGroups.TabIndex = 4;
-            this.buttonSearchGroups.UseVisualStyleBackColor = true;
-            // 
-            // buttonClearGroups
-            // 
-            this.buttonClearGroups.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonClearGroups.Image = global::test_DataBase.Properties.Resources.free_icon_eraser_67795061;
-            this.buttonClearGroups.Location = new System.Drawing.Point(380, 3);
-            this.buttonClearGroups.Name = "buttonClearGroups";
-            this.buttonClearGroups.Size = new System.Drawing.Size(67, 67);
-            this.buttonClearGroups.TabIndex = 3;
-            this.buttonClearGroups.UseVisualStyleBackColor = true;
-            this.buttonClearGroups.Click += new System.EventHandler(this.ButtonClear_Click);
-            // 
-            // buttonRefreshGroups
-            // 
-            this.buttonRefreshGroups.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonRefreshGroups.Image = global::test_DataBase.Properties.Resources.free_icon_updating_2990003;
-            this.buttonRefreshGroups.Location = new System.Drawing.Point(453, 3);
-            this.buttonRefreshGroups.Name = "buttonRefreshGroups";
-            this.buttonRefreshGroups.Size = new System.Drawing.Size(67, 67);
-            this.buttonRefreshGroups.TabIndex = 2;
-            this.buttonRefreshGroups.UseVisualStyleBackColor = true;
-            this.buttonRefreshGroups.Click += new System.EventHandler(this.ButtonRefresh_Click);
-            // 
-            // buttonSearchHousingOrders
-            // 
-            this.buttonSearchHousingOrders.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonSearchHousingOrders.Image = global::test_DataBase.Properties.Resources.free_icon_magnifier_2319177__1_;
-            this.buttonSearchHousingOrders.Location = new System.Drawing.Point(526, 3);
-            this.buttonSearchHousingOrders.Name = "buttonSearchHousingOrders";
-            this.buttonSearchHousingOrders.Size = new System.Drawing.Size(67, 67);
-            this.buttonSearchHousingOrders.TabIndex = 4;
-            this.buttonSearchHousingOrders.UseVisualStyleBackColor = true;
-            // 
-            // buttonClearHousingOrders
-            // 
-            this.buttonClearHousingOrders.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonClearHousingOrders.Image = global::test_DataBase.Properties.Resources.free_icon_eraser_67795061;
-            this.buttonClearHousingOrders.Location = new System.Drawing.Point(380, 3);
-            this.buttonClearHousingOrders.Name = "buttonClearHousingOrders";
-            this.buttonClearHousingOrders.Size = new System.Drawing.Size(67, 67);
-            this.buttonClearHousingOrders.TabIndex = 3;
-            this.buttonClearHousingOrders.UseVisualStyleBackColor = true;
-            // 
-            // buttonRefreshHousingOrders
-            // 
-            this.buttonRefreshHousingOrders.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonRefreshHousingOrders.Image = global::test_DataBase.Properties.Resources.free_icon_updating_2990003;
-            this.buttonRefreshHousingOrders.Location = new System.Drawing.Point(453, 3);
-            this.buttonRefreshHousingOrders.Name = "buttonRefreshHousingOrders";
-            this.buttonRefreshHousingOrders.Size = new System.Drawing.Size(67, 67);
-            this.buttonRefreshHousingOrders.TabIndex = 2;
-            this.buttonRefreshHousingOrders.UseVisualStyleBackColor = true;
-            this.buttonRefreshHousingOrders.Click += new System.EventHandler(this.ButtonRefresh_Click);
-            // 
-            // buttonSearchHousingPayments
-            // 
-            this.buttonSearchHousingPayments.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonSearchHousingPayments.Image = global::test_DataBase.Properties.Resources.free_icon_magnifier_2319177__1_;
-            this.buttonSearchHousingPayments.Location = new System.Drawing.Point(526, 3);
-            this.buttonSearchHousingPayments.Name = "buttonSearchHousingPayments";
-            this.buttonSearchHousingPayments.Size = new System.Drawing.Size(67, 67);
-            this.buttonSearchHousingPayments.TabIndex = 4;
-            this.buttonSearchHousingPayments.UseVisualStyleBackColor = true;
-            // 
-            // buttonClearHousingPayments
-            // 
-            this.buttonClearHousingPayments.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonClearHousingPayments.Image = global::test_DataBase.Properties.Resources.free_icon_eraser_67795061;
-            this.buttonClearHousingPayments.Location = new System.Drawing.Point(380, 3);
-            this.buttonClearHousingPayments.Name = "buttonClearHousingPayments";
-            this.buttonClearHousingPayments.Size = new System.Drawing.Size(67, 67);
-            this.buttonClearHousingPayments.TabIndex = 3;
-            this.buttonClearHousingPayments.UseVisualStyleBackColor = true;
-            this.buttonClearHousingPayments.Click += new System.EventHandler(this.ButtonClear_Click);
-            // 
-            // buttonRefreshHousingPayments
-            // 
-            this.buttonRefreshHousingPayments.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonRefreshHousingPayments.Image = global::test_DataBase.Properties.Resources.free_icon_updating_2990003;
-            this.buttonRefreshHousingPayments.Location = new System.Drawing.Point(453, 3);
-            this.buttonRefreshHousingPayments.Name = "buttonRefreshHousingPayments";
-            this.buttonRefreshHousingPayments.Size = new System.Drawing.Size(67, 67);
-            this.buttonRefreshHousingPayments.TabIndex = 2;
-            this.buttonRefreshHousingPayments.UseVisualStyleBackColor = true;
-            this.buttonRefreshHousingPayments.Click += new System.EventHandler(this.ButtonRefresh_Click);
-            // 
-            // buttonSearchRoomAssignment
-            // 
-            this.buttonSearchRoomAssignment.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonSearchRoomAssignment.Image = global::test_DataBase.Properties.Resources.free_icon_magnifier_2319177__1_;
-            this.buttonSearchRoomAssignment.Location = new System.Drawing.Point(526, 3);
-            this.buttonSearchRoomAssignment.Name = "buttonSearchRoomAssignment";
-            this.buttonSearchRoomAssignment.Size = new System.Drawing.Size(67, 67);
-            this.buttonSearchRoomAssignment.TabIndex = 4;
-            this.buttonSearchRoomAssignment.UseVisualStyleBackColor = true;
-            // 
-            // buttonClearRoomAssignment
-            // 
-            this.buttonClearRoomAssignment.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonClearRoomAssignment.Image = global::test_DataBase.Properties.Resources.free_icon_eraser_67795061;
-            this.buttonClearRoomAssignment.Location = new System.Drawing.Point(380, 3);
-            this.buttonClearRoomAssignment.Name = "buttonClearRoomAssignment";
-            this.buttonClearRoomAssignment.Size = new System.Drawing.Size(67, 67);
-            this.buttonClearRoomAssignment.TabIndex = 3;
-            this.buttonClearRoomAssignment.UseVisualStyleBackColor = true;
-            this.buttonClearRoomAssignment.Click += new System.EventHandler(this.ButtonClear_Click);
-            // 
-            // buttonRefreshRoomAssignment
-            // 
-            this.buttonRefreshRoomAssignment.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonRefreshRoomAssignment.Image = global::test_DataBase.Properties.Resources.free_icon_updating_2990003;
-            this.buttonRefreshRoomAssignment.Location = new System.Drawing.Point(453, 3);
-            this.buttonRefreshRoomAssignment.Name = "buttonRefreshRoomAssignment";
-            this.buttonRefreshRoomAssignment.Size = new System.Drawing.Size(67, 67);
-            this.buttonRefreshRoomAssignment.TabIndex = 2;
-            this.buttonRefreshRoomAssignment.UseVisualStyleBackColor = true;
-            this.buttonRefreshRoomAssignment.Click += new System.EventHandler(this.ButtonRefresh_Click);
-            // 
-            // buttonSearchRooms
-            // 
-            this.buttonSearchRooms.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonSearchRooms.Image = global::test_DataBase.Properties.Resources.free_icon_magnifier_2319177__1_;
-            this.buttonSearchRooms.Location = new System.Drawing.Point(526, 3);
-            this.buttonSearchRooms.Name = "buttonSearchRooms";
-            this.buttonSearchRooms.Size = new System.Drawing.Size(67, 67);
-            this.buttonSearchRooms.TabIndex = 4;
-            this.buttonSearchRooms.UseVisualStyleBackColor = true;
-            // 
-            // buttonClearRooms
-            // 
-            this.buttonClearRooms.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonClearRooms.Image = global::test_DataBase.Properties.Resources.free_icon_eraser_67795061;
-            this.buttonClearRooms.Location = new System.Drawing.Point(380, 3);
-            this.buttonClearRooms.Name = "buttonClearRooms";
-            this.buttonClearRooms.Size = new System.Drawing.Size(67, 67);
-            this.buttonClearRooms.TabIndex = 3;
-            this.buttonClearRooms.UseVisualStyleBackColor = true;
-            this.buttonClearRooms.Click += new System.EventHandler(this.ButtonClear_Click);
-            // 
-            // buttonRefreshRooms
-            // 
-            this.buttonRefreshRooms.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonRefreshRooms.Image = global::test_DataBase.Properties.Resources.free_icon_updating_2990003;
-            this.buttonRefreshRooms.Location = new System.Drawing.Point(453, 3);
-            this.buttonRefreshRooms.Name = "buttonRefreshRooms";
-            this.buttonRefreshRooms.Size = new System.Drawing.Size(67, 67);
-            this.buttonRefreshRooms.TabIndex = 2;
-            this.buttonRefreshRooms.UseVisualStyleBackColor = true;
-            this.buttonRefreshRooms.Click += new System.EventHandler(this.ButtonRefresh_Click);
-            // 
             // buttonSearchStudents
             // 
             this.buttonSearchStudents.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonSearchStudents.Image = global::test_DataBase.Properties.Resources.free_icon_magnifier_2319177__1_;
+            this.buttonSearchStudents.Image = ((System.Drawing.Image)(resources.GetObject("buttonSearchStudents.Image")));
             this.buttonSearchStudents.Location = new System.Drawing.Point(526, 3);
             this.buttonSearchStudents.Name = "buttonSearchStudents";
             this.buttonSearchStudents.Size = new System.Drawing.Size(67, 67);
@@ -2185,7 +2216,7 @@
             // buttonClearStudents
             // 
             this.buttonClearStudents.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonClearStudents.Image = global::test_DataBase.Properties.Resources.free_icon_eraser_67795061;
+            this.buttonClearStudents.Image = ((System.Drawing.Image)(resources.GetObject("buttonClearStudents.Image")));
             this.buttonClearStudents.Location = new System.Drawing.Point(380, 3);
             this.buttonClearStudents.Name = "buttonClearStudents";
             this.buttonClearStudents.Size = new System.Drawing.Size(67, 67);
@@ -2196,7 +2227,7 @@
             // buttonRefreshStudents
             // 
             this.buttonRefreshStudents.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonRefreshStudents.Image = global::test_DataBase.Properties.Resources.free_icon_updating_2990003;
+            this.buttonRefreshStudents.Image = ((System.Drawing.Image)(resources.GetObject("buttonRefreshStudents.Image")));
             this.buttonRefreshStudents.Location = new System.Drawing.Point(453, 3);
             this.buttonRefreshStudents.Name = "buttonRefreshStudents";
             this.buttonRefreshStudents.Size = new System.Drawing.Size(67, 67);
@@ -2204,11 +2235,31 @@
             this.buttonRefreshStudents.UseVisualStyleBackColor = true;
             this.buttonRefreshStudents.Click += new System.EventHandler(this.ButtonRefresh_Click);
             // 
+            // textBoxSearchStudents
+            // 
+            this.textBoxSearchStudents.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.textBoxSearchStudents.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBoxSearchStudents.Location = new System.Drawing.Point(599, 32);
+            this.textBoxSearchStudents.Name = "textBoxSearchStudents";
+            this.textBoxSearchStudents.Size = new System.Drawing.Size(149, 33);
+            this.textBoxSearchStudents.TabIndex = 1;
+            this.textBoxSearchStudents.TextChanged += new System.EventHandler(this.TextBoxSearchStudents_TextChanged);
+            // 
+            // label35
+            // 
+            this.label35.AutoSize = true;
+            this.label35.Font = new System.Drawing.Font("Magneto", 36F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label35.Location = new System.Drawing.Point(3, 3);
+            this.label35.Name = "label35";
+            this.label35.Size = new System.Drawing.Size(252, 58);
+            this.label35.TabIndex = 0;
+            this.label35.Text = "Студенты";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(768, 781);
+            this.ClientSize = new System.Drawing.Size(776, 781);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;

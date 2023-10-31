@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LogIn));
             this.buttonEnter = new System.Windows.Forms.Button();
             this.labelLogin = new System.Windows.Forms.Label();
             this.labelPassword = new System.Windows.Forms.Label();
@@ -44,37 +45,39 @@
             // 
             // buttonEnter
             // 
-            this.buttonEnter.Font = new System.Drawing.Font("Segoe UI Semibold", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonEnter.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.buttonEnter.Font = new System.Drawing.Font("Magneto", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonEnter.Location = new System.Drawing.Point(363, 309);
             this.buttonEnter.Name = "buttonEnter";
             this.buttonEnter.Size = new System.Drawing.Size(228, 93);
             this.buttonEnter.TabIndex = 0;
             this.buttonEnter.Text = "Войти";
-            this.buttonEnter.UseVisualStyleBackColor = true;
+            this.buttonEnter.UseVisualStyleBackColor = false;
             this.buttonEnter.Click += new System.EventHandler(this.ButtonEnter_Click);
             // 
             // labelLogin
             // 
             this.labelLogin.AutoSize = true;
-            this.labelLogin.Font = new System.Drawing.Font("Segoe UI Semibold", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelLogin.Font = new System.Drawing.Font("Magneto", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelLogin.Location = new System.Drawing.Point(54, 114);
             this.labelLogin.Name = "labelLogin";
-            this.labelLogin.Size = new System.Drawing.Size(237, 86);
+            this.labelLogin.Size = new System.Drawing.Size(240, 78);
             this.labelLogin.TabIndex = 1;
             this.labelLogin.Text = "Логин:";
             // 
             // labelPassword
             // 
             this.labelPassword.AutoSize = true;
-            this.labelPassword.Font = new System.Drawing.Font("Segoe UI Semibold", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelPassword.Font = new System.Drawing.Font("Magneto", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelPassword.Location = new System.Drawing.Point(12, 213);
             this.labelPassword.Name = "labelPassword";
-            this.labelPassword.Size = new System.Drawing.Size(279, 86);
+            this.labelPassword.Size = new System.Drawing.Size(287, 78);
             this.labelPassword.TabIndex = 2;
             this.labelPassword.Text = "Пароль:";
             // 
             // textBoxLogin
             // 
+            this.textBoxLogin.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.textBoxLogin.Font = new System.Drawing.Font("Segoe UI Semibold", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxLogin.Location = new System.Drawing.Point(297, 111);
             this.textBoxLogin.Name = "textBoxLogin";
@@ -83,6 +86,7 @@
             // 
             // textBoxPassword
             // 
+            this.textBoxPassword.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.textBoxPassword.Font = new System.Drawing.Font("Segoe UI Semibold", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxPassword.Location = new System.Drawing.Point(297, 210);
             this.textBoxPassword.Name = "textBoxPassword";
@@ -92,10 +96,10 @@
             // labelRegister
             // 
             this.labelRegister.AutoSize = true;
-            this.labelRegister.Font = new System.Drawing.Font("Segoe UI Semibold", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelRegister.Font = new System.Drawing.Font("Magneto", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelRegister.Location = new System.Drawing.Point(167, 15);
             this.labelRegister.Name = "labelRegister";
-            this.labelRegister.Size = new System.Drawing.Size(434, 86);
+            this.labelRegister.Size = new System.Drawing.Size(434, 78);
             this.labelRegister.TabIndex = 5;
             this.labelRegister.Text = "Авторизация";
             // 
@@ -112,18 +116,20 @@
             // 
             // buttonClear
             // 
+            this.buttonClear.BackColor = System.Drawing.Color.LightSkyBlue;
             this.buttonClear.Font = new System.Drawing.Font("Segoe UI Semibold", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonClear.Image = global::test_DataBase.Properties.Resources.free_icon_eraser_67795061;
+            this.buttonClear.Image = ((System.Drawing.Image)(resources.GetObject("buttonClear.Image")));
             this.buttonClear.Location = new System.Drawing.Point(663, 12);
             this.buttonClear.Name = "buttonClear";
             this.buttonClear.Size = new System.Drawing.Size(93, 93);
             this.buttonClear.TabIndex = 8;
-            this.buttonClear.UseVisualStyleBackColor = true;
+            this.buttonClear.UseVisualStyleBackColor = false;
             this.buttonClear.Click += new System.EventHandler(this.ButtonClear_Click);
             // 
             // pictureBoxUnshow
             // 
-            this.pictureBoxUnshow.Image = global::test_DataBase.Properties.Resources.eye_visible_hide_hidden_show_icon_145988__3_;
+            this.pictureBoxUnshow.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBoxUnshow.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxUnshow.Image")));
             this.pictureBoxUnshow.Location = new System.Drawing.Point(663, 210);
             this.pictureBoxUnshow.Name = "pictureBoxUnshow";
             this.pictureBoxUnshow.Size = new System.Drawing.Size(93, 93);
@@ -145,6 +151,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.SteelBlue;
             this.ClientSize = new System.Drawing.Size(768, 729);
             this.Controls.Add(this.labelAuth);
             this.Controls.Add(this.buttonClear);

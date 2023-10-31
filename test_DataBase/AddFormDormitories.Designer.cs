@@ -38,22 +38,25 @@
             // labelProdukciya
             // 
             this.labelProdukciya.AutoSize = true;
-            this.labelProdukciya.Location = new System.Drawing.Point(123, 363);
+            this.labelProdukciya.Font = new System.Drawing.Font("Viner Hand ITC", 8.25F);
+            this.labelProdukciya.Location = new System.Drawing.Point(123, 359);
             this.labelProdukciya.Name = "labelProdukciya";
-            this.labelProdukciya.Size = new System.Drawing.Size(121, 13);
+            this.labelProdukciya.Size = new System.Drawing.Size(122, 18);
             this.labelProdukciya.TabIndex = 16;
             this.labelProdukciya.Text = "Название общежития:";
             // 
             // textBoxDormitoryName
             // 
-            this.textBoxDormitoryName.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBoxDormitoryName.Location = new System.Drawing.Point(252, 351);
+            this.textBoxDormitoryName.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.textBoxDormitoryName.Font = new System.Drawing.Font("Viner Hand ITC", 8.25F);
+            this.textBoxDormitoryName.Location = new System.Drawing.Point(251, 356);
             this.textBoxDormitoryName.Name = "textBoxDormitoryName";
-            this.textBoxDormitoryName.Size = new System.Drawing.Size(391, 33);
+            this.textBoxDormitoryName.Size = new System.Drawing.Size(391, 25);
             this.textBoxDormitoryName.TabIndex = 15;
             // 
             // buttonSave
             // 
+            this.buttonSave.Font = new System.Drawing.Font("Viner Hand ITC", 8.25F);
             this.buttonSave.Location = new System.Drawing.Point(283, 661);
             this.buttonSave.Name = "buttonSave";
             this.buttonSave.Size = new System.Drawing.Size(202, 56);
@@ -65,20 +68,20 @@
             // labelTitle
             // 
             this.labelTitle.AutoSize = true;
-            this.labelTitle.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelTitle.Location = new System.Drawing.Point(208, 9);
+            this.labelTitle.Font = new System.Drawing.Font("Magneto", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
+            this.labelTitle.Location = new System.Drawing.Point(279, 9);
             this.labelTitle.Name = "labelTitle";
-            this.labelTitle.Size = new System.Drawing.Size(175, 25);
+            this.labelTitle.Size = new System.Drawing.Size(190, 24);
             this.labelTitle.TabIndex = 20;
             this.labelTitle.Text = "Создание записи:";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.Location = new System.Drawing.Point(209, 34);
+            this.label1.Font = new System.Drawing.Font("Magneto", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(320, 33);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(105, 21);
+            this.label1.Size = new System.Drawing.Size(108, 20);
             this.label1.TabIndex = 21;
             this.label1.Text = "Общежитие";
             // 
@@ -86,6 +89,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.SteelBlue;
             this.ClientSize = new System.Drawing.Size(768, 729);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.labelTitle);

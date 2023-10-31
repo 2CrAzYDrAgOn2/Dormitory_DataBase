@@ -38,42 +38,45 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.Location = new System.Drawing.Point(207, 35);
+            this.label1.Font = new System.Drawing.Font("Magneto", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
+            this.label1.Location = new System.Drawing.Point(314, 33);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(90, 21);
+            this.label1.Size = new System.Drawing.Size(115, 24);
             this.label1.TabIndex = 38;
             this.label1.Text = "Факультет";
             // 
             // labelTitle
             // 
             this.labelTitle.AutoSize = true;
-            this.labelTitle.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelTitle.Location = new System.Drawing.Point(206, 10);
+            this.labelTitle.Font = new System.Drawing.Font("Magneto", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
+            this.labelTitle.Location = new System.Drawing.Point(277, 9);
             this.labelTitle.Name = "labelTitle";
-            this.labelTitle.Size = new System.Drawing.Size(175, 25);
+            this.labelTitle.Size = new System.Drawing.Size(190, 24);
             this.labelTitle.TabIndex = 37;
             this.labelTitle.Text = "Создание записи:";
             // 
             // labelProdukciya
             // 
             this.labelProdukciya.AutoSize = true;
+            this.labelProdukciya.Font = new System.Drawing.Font("Viner Hand ITC", 8.25F);
             this.labelProdukciya.Location = new System.Drawing.Point(122, 364);
             this.labelProdukciya.Name = "labelProdukciya";
-            this.labelProdukciya.Size = new System.Drawing.Size(122, 13);
+            this.labelProdukciya.Size = new System.Drawing.Size(123, 18);
             this.labelProdukciya.TabIndex = 33;
             this.labelProdukciya.Text = "Название факультета:";
             // 
             // textBoxFacultyName
             // 
-            this.textBoxFacultyName.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBoxFacultyName.Location = new System.Drawing.Point(250, 352);
+            this.textBoxFacultyName.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.textBoxFacultyName.Font = new System.Drawing.Font("Viner Hand ITC", 8.25F);
+            this.textBoxFacultyName.Location = new System.Drawing.Point(251, 357);
             this.textBoxFacultyName.Name = "textBoxFacultyName";
-            this.textBoxFacultyName.Size = new System.Drawing.Size(391, 33);
+            this.textBoxFacultyName.Size = new System.Drawing.Size(391, 25);
             this.textBoxFacultyName.TabIndex = 32;
             // 
             // buttonSave
             // 
+            this.buttonSave.Font = new System.Drawing.Font("Viner Hand ITC", 8.25F);
             this.buttonSave.Location = new System.Drawing.Point(281, 662);
             this.buttonSave.Name = "buttonSave";
             this.buttonSave.Size = new System.Drawing.Size(202, 56);
@@ -86,6 +89,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.SteelBlue;
             this.ClientSize = new System.Drawing.Size(768, 729);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.labelTitle);
